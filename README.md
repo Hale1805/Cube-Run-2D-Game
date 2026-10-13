@@ -132,7 +132,28 @@ hoặc rời khỏi ranh giới của nó. Trong dự án Cube Run, Area2D đư�
   - void_ball: Một loại đạn của Boss, luôn bay sang trái, chạm vào thì chết luôn
   - world_environment: Tạo hiệu ứng chớp tắt ánh sáng cho level 1
   - boss.gd: Tự tìm hiểu đi, lười quá (nhớ là file này nằm bên level8_boss)
-  - ## player.gd (FILE NÀY CỰC KỲ QUAN TRỌNG, TÌM HIỂU CHO KỸ, VÌ NÓ LIÊN KẾT VỚI RẤT NHIỀU FILE VÀ ĐỐI TƯỢNG KHÁC NHAU): Code quản lý các hành vi của Player (Hệ thống vật lý, phản hồi thao tác của người chơi, xử lý trạng thái sống chết, quản lý việc chuyển đổi sang các dạng khác thông qua việc đi qua portal
-tương tác với Pad và Ring) Nói chung là rất nhiều thứ nằn trong này.
+  - player.gd: Code quản lý các hành vi của Player (Hệ thống vật lý, phản hồi thao tác của người chơi, xử lý trạng thái sống chết, quản lý việc chuyển đổi sang các dạng khác thông qua việc đi qua portal
+tương tác với Pad và Ring)
 
-Hết rồi!
+# **Hướng dẫn cài đặt & chạy game trên Godot**
+## Để trải nghiệm trực tiếp dự án Cube Run trên máy cá nhân, bạn vui lòng làm theo các bước dưới đây:
+### 1. Yêu cầu hệ thống
+Tải và cài đặt phần mềm Godot Engine 4.7.2 thông qua đường link: https://godotengine.org/download/windows/
+
+### 2. Tải mã nguồn
+Bạn có thể tải toàn bộ mã nguồn về máy theo 1 trong 2 cách:
+**Cách 1**: Mở terminal tại thư mục muốn lưu và chạy lệnh: git clone 
+
+**Cách 2**: Bấm vào nút màu xanh Code trên trang GitHub này --> Cọn Download ZIP. Sau khi tải xong, hãy giải nén file ZIP ra một thư mục
+
+### 3. Nhập dự án vào Godot
+  - Mở phần mềm Godot Engine.
+  - Tại màn hình quản lý dự án xuất hiện ban đầu, bấm vào nút Import.
+  - Bấm Browse và điều hướng đến thư mục mã nguồn vừa tải về.
+  - Chọn file project.godot và bấm Open.
+  - Bấm nút Import&Edit để Godot nạp toàn bộ tài nguyên của game
+
+### 4. Trải nghiệm game
+  - Khi giao diện Editor của Godot hiện lên, bạn chỉ cần nhấn phím F5 hoặc bấm nút Play hình tam giác ở góc trên bên phải màn hình để chạy game ngay lập tức
+  - Hoặc bạn có thể Export ra file apk để có thể chơi trên thiết bị Android.
+
