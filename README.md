@@ -142,7 +142,7 @@ Tải và cài đặt phần mềm Godot Engine 4.7.2 thông qua đường link:
 
 ### 2. Tải mã nguồn
 Bạn có thể tải toàn bộ mã nguồn về máy theo 1 trong 2 cách:
-**Cách 1**: Mở terminal tại thư mục muốn lưu và chạy lệnh: git clone 
+**Cách 1**: Mở terminal tại thư mục muốn lưu và chạy lệnh: git clone https://github.com/Hale1805/Cube-Run-2D-Game.git
 
 **Cách 2**: Bấm vào nút màu xanh Code trên trang GitHub này --> Cọn Download ZIP. Sau khi tải xong, hãy giải nén file ZIP ra một thư mục
 
