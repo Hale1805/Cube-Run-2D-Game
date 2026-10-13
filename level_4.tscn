@@ -1,0 +1,2324 @@
+[gd_scene format=4 uid="uid://dfvhhkef615bf"]
+
+[ext_resource type="PackedScene" uid="uid://b6fax56arbtiq" path="res://level_base.tscn" id="1_48hld"]
+[ext_resource type="Texture2D" uid="uid://cftdwfql6biym" path="res://level4_assets/background/ocean1_1.png" id="2_l45re"]
+[ext_resource type="Script" uid="uid://d3oqyatgka5lb" path="res://Scripts/level_4.gd" id="2_lmtve"]
+[ext_resource type="AudioStream" uid="uid://cmdqny3obl1xk" path="res://level4_assets/musiclv4.ogg" id="2_ofoxf"]
+[ext_resource type="Texture2D" uid="uid://cbv3s52f0tl3y" path="res://level4_assets/background/ocean1_3.png" id="4_aqy51"]
+[ext_resource type="Texture2D" uid="uid://btlgxhxw4qqqv" path="res://Assets/GridBlock05.png" id="5_e85il"]
+[ext_resource type="Texture2D" uid="uid://xy6y01yafrwv" path="res://level4_assets/background/ocean4_1.png" id="5_gryke"]
+[ext_resource type="Texture2D" uid="uid://0xoxcoxl16lq" path="res://Assets/GridBlock02.png" id="6_61pco"]
+[ext_resource type="Texture2D" uid="uid://dllrgkc8aistq" path="res://level4_assets/background/ocean4_2.png" id="6_gxdfg"]
+[ext_resource type="Texture2D" uid="uid://b0naq1o850q6c" path="res://level4_assets/background/ocean4_3.png" id="7_cafku"]
+[ext_resource type="Texture2D" uid="uid://bobaxcdd08fln" path="res://Assets/WavySlope02.png" id="7_rgg5m"]
+[ext_resource type="Texture2D" uid="uid://f54j8sifl4ro" path="res://level4_assets/background/ocean2_1.png" id="8_cafku"]
+[ext_resource type="Texture2D" uid="uid://brw3xgmfa1myl" path="res://level4_assets/background/ocean4_4.png" id="8_ktlxk"]
+[ext_resource type="Texture2D" uid="uid://o841m3oj40eu" path="res://Assets/WavySlope01.png" id="8_yk8de"]
+[ext_resource type="Texture2D" uid="uid://cdodlc8lu2h36" path="res://Assets/pipes_x4.png" id="9_gryke"]
+[ext_resource type="Texture2D" uid="uid://dnsvwempvsqs" path="res://level4_assets/background/ocean2_2.png" id="9_ktlxk"]
+[ext_resource type="Texture2D" uid="uid://bqhn1gqphhax" path="res://Assets/Dungeon_x8.png" id="10_gxdfg"]
+[ext_resource type="Texture2D" uid="uid://nseq6cisj28d" path="res://level4_assets/background/ocean2_3.png" id="10_is8t2"]
+[ext_resource type="Texture2D" uid="uid://cft66g1jssk3o" path="res://Assets/Asphalt_03_height.png" id="11_cafku"]
+[ext_resource type="Texture2D" uid="uid://ccxblo3y3anxo" path="res://level4_assets/background/ocean5_1.png" id="11_ktlxk"]
+[ext_resource type="Texture2D" uid="uid://c0l5aixuqkpyh" path="res://level4_assets/background/ocean5_2.png" id="12_gm7il"]
+[ext_resource type="Texture2D" uid="uid://cfi2tg4nqeac" path="res://Assets/Asphalt_05_basecolor.png" id="12_ktlxk"]
+[ext_resource type="Texture2D" uid="uid://d05l5dnuva52d" path="res://level4_assets/background/ocean5_3.png" id="13_d8dyn"]
+[ext_resource type="Texture2D" uid="uid://cv8qja6skyjif" path="res://Assets/Asphalt_05_height.png" id="13_is8t2"]
+[ext_resource type="Texture2D" uid="uid://ck3k7h17xi1xv" path="res://Assets/Asphalt_07_basecolor.png" id="14_ghwuf"]
+[ext_resource type="Texture2D" uid="uid://brmu847vvfom1" path="res://level4_assets/background/ocean5_4.png" id="14_o05k2"]
+[ext_resource type="Texture2D" uid="uid://gyld01tyfmwe" path="res://Assets/BlackBlock03.png" id="15_gm7il"]
+[ext_resource type="Texture2D" uid="uid://cyblysfhm25dg" path="res://level4_assets/background/ocean6_1.png" id="15_xuddt"]
+[ext_resource type="Texture2D" uid="uid://d0tr17dac6f4q" path="res://Assets/BlackBlock05.png" id="16_d8dyn"]
+[ext_resource type="Texture2D" uid="uid://f3xm34i58m0d" path="res://level4_assets/background/ocean6_2.png" id="16_qfsro"]
+[ext_resource type="Texture2D" uid="uid://d56tmuwy48y8" path="res://level4_assets/background/ocean6_3.png" id="17_espq1"]
+[ext_resource type="Texture2D" uid="uid://c13m1so5ajrnw" path="res://Assets/BlackSlope01.png" id="17_o05k2"]
+[ext_resource type="Texture2D" uid="uid://b52fimjqjpedx" path="res://level4_assets/background/ocean6_4.png" id="18_41wfy"]
+[ext_resource type="Texture2D" uid="uid://bqun8jrlrxoax" path="res://Assets/BrickSlope01.png" id="18_stvfu"]
+[ext_resource type="Texture2D" uid="uid://2q1qa6ph17y8" path="res://level4_assets/background/ocean8_1.png" id="19_4dc7m"]
+[ext_resource type="Texture2D" uid="uid://bgiwsht114dvl" path="res://Assets/MetallicSlope01.png" id="19_xuddt"]
+[ext_resource type="Texture2D" uid="uid://e6xxjsemvvbj" path="res://level4_assets/background/ocean8_2.png" id="20_ofoxf"]
+[ext_resource type="Texture2D" uid="uid://cyr6cnugkrud" path="res://Assets/BlackSlope02.png" id="20_qfsro"]
+[ext_resource type="Texture2D" uid="uid://dww3inkyasivi" path="res://level4_assets/background/ocean8_3.png" id="21_4rk2c"]
+[ext_resource type="Texture2D" uid="uid://cta6nbkns03tw" path="res://Assets/BrickSlope02.png" id="21_espq1"]
+[ext_resource type="Texture2D" uid="uid://y6q0sacggf5n" path="res://Assets/MetallicSlope02.png" id="22_41wfy"]
+[ext_resource type="Texture2D" uid="uid://blbb4fcoud5r1" path="res://level4_assets/background/ocean8_4.png" id="22_d8r48"]
+[ext_resource type="Texture2D" uid="uid://c2pvvjj60dbau" path="res://Assets/BlackBlock01.png" id="23_a5y03"]
+[ext_resource type="Texture2D" uid="uid://bftctcxo5k2ke" path="res://level4_assets/background/ocean8_5.png" id="23_tiqg7"]
+[ext_resource type="Texture2D" uid="uid://x0v2hw56osit" path="res://Assets/BlackBlock06.png" id="24_4dc7m"]
+[ext_resource type="Texture2D" uid="uid://c18s6cnxe4l6r" path="res://Assets/BlackBlock07.png" id="25_ofoxf"]
+[ext_resource type="Texture2D" uid="uid://bbnpsq27b5hg3" path="res://level3_assets/sandblock.png" id="26_4rk2c"]
+[ext_resource type="Texture2D" uid="uid://br46gxcsf46q6" path="res://Assets/BlackBlock02.png" id="27_d8r48"]
+[ext_resource type="Texture2D" uid="uid://bes4xmw316f84" path="res://Assets/BeamBlock07.png" id="28_tiqg7"]
+[ext_resource type="Texture2D" uid="uid://dj0jo0nxlsn2x" path="res://Assets/BrickBlock02.png" id="29_jqx67"]
+[ext_resource type="Texture2D" uid="uid://bq0b5kjw5tlws" path="res://Assets/BrickBlock05.png" id="30_27s3s"]
+[ext_resource type="Texture2D" uid="uid://c7yqkhcsau733" path="res://Assets/BrickBlock07.png" id="31_umwtk"]
+[ext_resource type="PackedScene" uid="uid://dh4mqapnb26n7" path="res://spike_scene/gai_nhon_origin.tscn" id="32_3wjry"]
+[ext_resource type="PackedScene" uid="uid://mhwfrvtr5tpg" path="res://saw_blade_scene/gear3_sawblade.tscn" id="33_v1v40"]
+[ext_resource type="PackedScene" uid="uid://dyloytm2dw7ft" path="res://saw_blade_scene/gear_2_sawblade.tscn" id="34_ldc6e"]
+[ext_resource type="PackedScene" uid="uid://bmicdpc030qf5" path="res://saw_blade_scene/outline_sawblade.tscn" id="35_1pbux"]
+[ext_resource type="PackedScene" uid="uid://bupcwr5x82ykp" path="res://saw_blade_scene/pointed_1_sawblade.tscn" id="36_p5nlu"]
+[ext_resource type="PackedScene" uid="uid://cykniday8jalq" path="res://saw_blade_scene/point_sawblade.tscn" id="37_avjbk"]
+[ext_resource type="PackedScene" uid="uid://btenvutegkmc4" path="res://saw_blade_scene/regular_sawblde.tscn" id="38_y8psb"]
+[ext_resource type="PackedScene" uid="uid://bxvmdcqm1wy6p" path="res://saw_blade_scene/scythe_sawbalde.tscn" id="39_fsvsw"]
+[ext_resource type="PackedScene" uid="uid://c1jsa5mn32fh4" path="res://saw_blade_scene/spiked_sawblade.tscn" id="40_iowva"]
+[ext_resource type="PackedScene" uid="uid://ba6hcu514dbsl" path="res://spike_scene/gai_nhon_x3.tscn" id="41_f42xr"]
+[ext_resource type="PackedScene" uid="uid://bbk2tvo8ofhqd" path="res://portal_scene/portal_ship.tscn" id="42_01ysa"]
+[ext_resource type="PackedScene" uid="uid://b7ujqcowphns5" path="res://level4_block/haidang_6_block.tscn" id="63_4rk2c"]
+[ext_resource type="PackedScene" uid="uid://c5udbo8uido6e" path="res://level4_block/ballon_2_block.tscn" id="64_d8r48"]
+[ext_resource type="PackedScene" uid="uid://beroy6fpm8y0x" path="res://level4_block/ballon_3_block.tscn" id="65_tiqg7"]
+[ext_resource type="PackedScene" uid="uid://bbpf5r545u82d" path="res://level4_block/ballon_4_block.tscn" id="66_umwtk"]
+[ext_resource type="PackedScene" uid="uid://bnt4gda5isrgy" path="res://level4_block/ballon_5_block.tscn" id="67_3wjry"]
+[ext_resource type="PackedScene" uid="uid://buobpm2y3l6e8" path="res://level4_block/haidang_4_block.tscn" id="68_v1v40"]
+[ext_resource type="PackedScene" uid="uid://c0wvarp0gxdjm" path="res://level4_block/ballon_block.tscn" id="69_v1v40"]
+[ext_resource type="PackedScene" uid="uid://65qatcdrrtlm" path="res://level4_block/ballon_6_block.tscn" id="70_ldc6e"]
+[ext_resource type="PackedScene" uid="uid://bljo7pq7qso8l" path="res://level4_block/haidang_3_block.tscn" id="71_ldc6e"]
+[ext_resource type="PackedScene" uid="uid://q725xe7n0nwf" path="res://level3_spike/seagull_spike.tscn" id="72_1pbux"]
+[ext_resource type="PackedScene" uid="uid://c1yoqqqhxgiue" path="res://finish_line.tscn" id="73_p5nlu"]
+[ext_resource type="Texture2D" uid="uid://b25jg0j22bcrx" path="res://level3_assets/water_portal.png" id="74_01ysa"]
+[ext_resource type="PackedScene" uid="uid://cx0tep5qpe886" path="res://level4_block/haidang_5_block.tscn" id="74_y8psb"]
+[ext_resource type="PackedScene" uid="uid://buvp41a20yu8s" path="res://level4_block/giankhoan_block.tscn" id="75_fsvsw"]
+[ext_resource type="Texture2D" uid="uid://crc6c7ht3d7bb" path="res://level3_assets/seagull.png" id="76_f42xr"]
+[ext_resource type="PackedScene" uid="uid://b3v43kmv8bfhb" path="res://level4_block/haidang_block.tscn" id="77_01ysa"]
+[ext_resource type="PackedScene" uid="uid://n6q8velxu2sx" path="res://level4_block/haidang_2_block.tscn" id="78_lmtve"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lmtve"]
+texture = ExtResource("5_e85il")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gpult"]
+texture = ExtResource("6_61pco")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jbf7b"]
+texture = ExtResource("7_rgg5m")
+texture_region_size = Vector2i(242, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-120.51601, 65.340004, 121.48401, -59.532005, 116.644, 57.596)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qwht1"]
+texture = ExtResource("8_yk8de")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-0.48400116, 1.4519958, 61, -61, 47.916, 52.756004, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xqokl"]
+texture = ExtResource("9_gryke")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+5:1/0 = 0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+6:1/0 = 0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+7:1/0 = 0
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+8:1/0 = 0
+8:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+9:1/0 = 0
+9:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+10:1/0 = 0
+10:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+11:1/0 = 0
+11:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+12:1/0 = 0
+12:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+13:1/0 = 0
+13:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+14:1/0 = 0
+14:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+5:2/0 = 0
+5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+6:2/0 = 0
+6:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+7:2/0 = 0
+7:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+8:2/0 = 0
+8:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+9:2/0 = 0
+9:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+10:2/0 = 0
+10:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+11:2/0 = 0
+11:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+12:2/0 = 0
+12:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+13:2/0 = 0
+13:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+14:2/0 = 0
+14:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jd04y"]
+texture = ExtResource("10_gxdfg")
+texture_region_size = Vector2i(128, 128)
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+11:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+10:9/0 = 0
+11:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+5:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+9:10/0 = 0
+10:10/0 = 0
+11:10/0 = 0
+12:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+8:11/0 = 0
+9:11/0 = 0
+10:11/0 = 0
+11:11/0 = 0
+12:11/0 = 0
+13:11/0 = 0
+14:11/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+8:12/0 = 0
+9:12/0 = 0
+10:12/0 = 0
+11:12/0 = 0
+12:12/0 = 0
+13:12/0 = 0
+14:12/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+10:13/0 = 0
+11:13/0 = 0
+12:13/0 = 0
+13:13/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+8:14/0 = 0
+9:14/0 = 0
+10:14/0 = 0
+10:14/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+11:14/0 = 0
+11:14/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+12:14/0 = 0
+12:14/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+13:14/0 = 0
+13:14/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+14:14/0 = 0
+0:15/0 = 0
+1:15/0 = 0
+2:15/0 = 0
+3:15/0 = 0
+4:15/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+7:15/0 = 0
+8:15/0 = 0
+9:15/0 = 0
+10:15/0 = 0
+11:15/0 = 0
+12:15/0 = 0
+13:15/0 = 0
+14:15/0 = 0
+7:16/0 = 0
+8:16/0 = 0
+9:16/0 = 0
+10:16/0 = 0
+11:16/0 = 0
+12:16/0 = 0
+13:16/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ckm4q"]
+texture = ExtResource("11_cafku")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u7e5t"]
+texture = ExtResource("12_ktlxk")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ldcaj"]
+texture = ExtResource("13_is8t2")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_irdsj"]
+texture = ExtResource("14_ghwuf")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ob54c"]
+texture = ExtResource("15_gm7il")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lqxtk"]
+texture = ExtResource("16_d8dyn")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_18uvt"]
+texture = ExtResource("17_o05k2")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-0.48400116, 1.4519958, 61, -61, 47.916, 52.756004, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pjoeq"]
+texture = ExtResource("18_stvfu")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-0.48400116, 1.4519958, 61, -61, 47.916, 52.756004, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ng087"]
+texture = ExtResource("19_xuddt")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-0.48400116, 1.4519958, 61, -61, 47.916, 52.756004, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m8d0g"]
+texture = ExtResource("20_qfsro")
+texture_region_size = Vector2i(242, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.260002, 3.3880005, 117.612, -60.500004, 117.612, 58.564003, -119.54801, 59.532005)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n0gqy"]
+texture = ExtResource("21_espq1")
+texture_region_size = Vector2i(242, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.260002, 3.3880005, 117.612, -60.500004, 117.612, 58.564003, -119.54801, 59.532005)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5mhqw"]
+texture = ExtResource("22_41wfy")
+texture_region_size = Vector2i(242, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-7.260002, 3.3880005, 117.612, -60.500004, 117.612, 58.564003, -119.54801, 59.532005)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i54n7"]
+texture = ExtResource("23_a5y03")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3juo8"]
+texture = ExtResource("24_4dc7m")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4gh40"]
+texture = ExtResource("25_ofoxf")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uj4u1"]
+texture = ExtResource("26_4rk2c")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4oe8s"]
+texture = ExtResource("27_d8r48")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0gwxh"]
+texture = ExtResource("28_tiqg7")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ontxf"]
+texture = ExtResource("29_jqx67")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g1hy3"]
+texture = ExtResource("30_27s3s")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wvkp3"]
+texture = ExtResource("31_umwtk")
+texture_region_size = Vector2i(122, 122)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-61, -61, 61, -61, 61, 61, -61, 61)
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_sfuar"]
+scenes/1/scene = ExtResource("32_3wjry")
+scenes/2/scene = ExtResource("41_f42xr")
+scenes/11/scene = ExtResource("33_v1v40")
+scenes/12/scene = ExtResource("34_ldc6e")
+scenes/13/scene = ExtResource("35_1pbux")
+scenes/14/scene = ExtResource("36_p5nlu")
+scenes/15/scene = ExtResource("37_avjbk")
+scenes/16/scene = ExtResource("38_y8psb")
+scenes/17/scene = ExtResource("39_fsvsw")
+scenes/18/scene = ExtResource("40_iowva")
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_iiw7h"]
+
+[sub_resource type="TileSet" id="TileSet_dn8ih"]
+tile_size = Vector2i(122, 122)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_lmtve")
+sources/1 = SubResource("TileSetAtlasSource_gpult")
+sources/2 = SubResource("TileSetAtlasSource_lqxtk")
+sources/3 = SubResource("TileSetAtlasSource_4oe8s")
+sources/4 = SubResource("TileSetAtlasSource_0gwxh")
+sources/5 = SubResource("TileSetAtlasSource_ontxf")
+sources/6 = SubResource("TileSetAtlasSource_g1hy3")
+sources/7 = SubResource("TileSetAtlasSource_wvkp3")
+sources/12 = SubResource("TileSetAtlasSource_xqokl")
+sources/13 = SubResource("TileSetAtlasSource_jd04y")
+sources/14 = SubResource("TileSetAtlasSource_ckm4q")
+sources/15 = SubResource("TileSetAtlasSource_u7e5t")
+sources/16 = SubResource("TileSetAtlasSource_ldcaj")
+sources/17 = SubResource("TileSetAtlasSource_irdsj")
+sources/8 = SubResource("TileSetScenesCollectionSource_sfuar")
+sources/10 = SubResource("TileSetAtlasSource_jbf7b")
+sources/11 = SubResource("TileSetAtlasSource_qwht1")
+sources/20 = SubResource("TileSetAtlasSource_18uvt")
+sources/21 = SubResource("TileSetAtlasSource_pjoeq")
+sources/22 = SubResource("TileSetAtlasSource_ng087")
+sources/23 = SubResource("TileSetAtlasSource_m8d0g")
+sources/24 = SubResource("TileSetAtlasSource_n0gqy")
+sources/25 = SubResource("TileSetAtlasSource_5mhqw")
+sources/19 = SubResource("TileSetAtlasSource_ob54c")
+sources/26 = SubResource("TileSetAtlasSource_i54n7")
+sources/27 = SubResource("TileSetAtlasSource_3juo8")
+sources/28 = SubResource("TileSetAtlasSource_4gh40")
+sources/9 = SubResource("TileSetScenesCollectionSource_iiw7h")
+sources/29 = SubResource("TileSetAtlasSource_uj4u1")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f42xr"]
+size = Vector2(253, 101)
+
+[node name="level_4" unique_id=982357182 instance=ExtResource("1_48hld")]
+script = ExtResource("2_lmtve")
+
+[node name="Player" parent="." index="0" unique_id=156449083]
+position = Vector2(0, 397)
+
+[node name="UILayer" parent="." index="1" unique_id=678080547]
+current_level = 4
+
+[node name="PauseButton" parent="UILayer" index="0" unique_id=820905053]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -85.0
+offset_top = 15.0
+offset_right = -11.0
+offset_bottom = 73.0
+grow_horizontal = 0
+
+[node name="AudioStreamPlayer" parent="." index="2" unique_id=1033137537]
+stream = ExtResource("2_ofoxf")
+
+[node name="ocean_bg1" type="Node2D" parent="." index="3" unique_id=1962417935]
+
+[node name="bg" type="Parallax2D" parent="ocean_bg1" index="0" unique_id=2011269723]
+z_index = -100
+scroll_scale = Vector2(0.05, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg1/bg" index="0" unique_id=1994090705]
+scale = Vector2(2, 2)
+texture = ExtResource("2_l45re")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="ocean_bg1/bg" index="1" unique_id=2100527764]
+offset_top = -1675.0
+offset_right = 1152.0
+offset_bottom = 5.0
+mouse_filter = 2
+color = Color(0.38039216, 0.5921569, 0.78431374, 1)
+
+[node name="cloud2" type="Parallax2D" parent="ocean_bg1" index="1" unique_id=77000231]
+z_index = -100
+scroll_scale = Vector2(0.2, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg1/cloud2" index="0" unique_id=466372345]
+scale = Vector2(2, 2)
+texture = ExtResource("4_aqy51")
+centered = false
+
+[node name="ocean_bg4" type="Node2D" parent="." index="4" unique_id=100571543]
+modulate = Color(1, 1, 1, 0)
+
+[node name="bg" type="Parallax2D" parent="ocean_bg4" index="0" unique_id=1360469785]
+z_index = -100
+scroll_scale = Vector2(0, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg4/bg" index="0" unique_id=1943433731]
+scale = Vector2(2, 2)
+texture = ExtResource("5_gryke")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="ocean_bg4/bg" index="1" unique_id=1516636685]
+offset_top = -1675.0
+offset_right = 1152.0
+offset_bottom = 5.0
+mouse_filter = 2
+color = Color(0.28627452, 0.43137255, 0.7411765, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="cloud1" type="Parallax2D" parent="ocean_bg4" index="1" unique_id=957098347]
+z_index = -100
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-10, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg4/cloud1" index="0" unique_id=909483528]
+scale = Vector2(2, 2)
+texture = ExtResource("6_gxdfg")
+centered = false
+
+[node name="cloud2" type="Parallax2D" parent="ocean_bg4" index="2" unique_id=636175610]
+z_index = -100
+scroll_scale = Vector2(0.2, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-15, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg4/cloud2" index="0" unique_id=1861447908]
+scale = Vector2(2, 2)
+texture = ExtResource("7_cafku")
+centered = false
+
+[node name="cloud3" type="Parallax2D" parent="ocean_bg4" index="3" unique_id=2074214701]
+z_index = -100
+scroll_scale = Vector2(0.25, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg4/cloud3" index="0" unique_id=484144694]
+scale = Vector2(2, 2)
+texture = ExtResource("8_ktlxk")
+centered = false
+
+[node name="ocean_bg2" type="Node2D" parent="." index="5" unique_id=1344205622]
+modulate = Color(1, 1, 1, 0)
+
+[node name="bg" type="Parallax2D" parent="ocean_bg2" index="0" unique_id=2097606662]
+z_index = -100
+scroll_scale = Vector2(0, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg2/bg" index="0" unique_id=2047853984]
+scale = Vector2(2, 2)
+texture = ExtResource("8_cafku")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="ocean_bg2/bg" index="1" unique_id=1140355776]
+offset_top = -1764.0
+offset_right = 1152.0
+mouse_filter = 2
+color = Color(0.5411765, 0.654902, 0.69803923, 1)
+
+[node name="cloud1" type="Parallax2D" parent="ocean_bg2" index="1" unique_id=51353401]
+z_index = -100
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-10, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg2/cloud1" index="0" unique_id=470295355]
+scale = Vector2(2, 2)
+texture = ExtResource("9_ktlxk")
+centered = false
+
+[node name="cloud2" type="Parallax2D" parent="ocean_bg2" index="2" unique_id=1218004695]
+z_index = -100
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-10, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg2/cloud2" index="0" unique_id=1798745318]
+scale = Vector2(2, 2)
+texture = ExtResource("10_is8t2")
+centered = false
+
+[node name="ocean_bg5" type="Node2D" parent="." index="6" unique_id=1073293133]
+modulate = Color(1, 1, 1, 0)
+
+[node name="bg" type="Parallax2D" parent="ocean_bg5" index="0" unique_id=1608544495]
+z_index = -100
+scroll_scale = Vector2(0, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg5/bg" index="0" unique_id=217346805]
+scale = Vector2(2, 2)
+texture = ExtResource("11_ktlxk")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="ocean_bg5/bg" index="1" unique_id=1778183682]
+offset_top = -1610.0
+offset_right = 1152.0
+mouse_filter = 2
+color = Color(0.2509804, 0.41568628, 0.6431373, 1)
+
+[node name="star" type="Parallax2D" parent="ocean_bg5" index="1" unique_id=1211956104]
+z_index = -100
+scroll_scale = Vector2(0, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg5/star" index="0" unique_id=1442371335]
+scale = Vector2(2, 2)
+texture = ExtResource("12_gm7il")
+centered = false
+
+[node name="cloud1" type="Parallax2D" parent="ocean_bg5" index="2" unique_id=289759599]
+z_index = -100
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-10, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg5/cloud1" index="0" unique_id=674096222]
+scale = Vector2(2, 2)
+texture = ExtResource("13_d8dyn")
+centered = false
+
+[node name="cloud2" type="Parallax2D" parent="ocean_bg5" index="3" unique_id=177932117]
+z_index = -100
+scroll_scale = Vector2(0.2, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-15, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg5/cloud2" index="0" unique_id=856589961]
+scale = Vector2(2, 2)
+texture = ExtResource("14_o05k2")
+centered = false
+
+[node name="ocean_bg6" type="Node2D" parent="." index="7" unique_id=1762599871]
+modulate = Color(1, 1, 1, 0)
+
+[node name="bg" type="Parallax2D" parent="ocean_bg6" index="0" unique_id=1532172212]
+z_index = -100
+scroll_scale = Vector2(0.05, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg6/bg" index="0" unique_id=528074397]
+scale = Vector2(2, 2)
+texture = ExtResource("15_xuddt")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="ocean_bg6/bg" index="1" unique_id=182032108]
+offset_top = -1834.0
+offset_right = 1152.0
+mouse_filter = 2
+color = Color(0.050980393, 0.07450981, 0.15686275, 1)
+
+[node name="moon" type="Parallax2D" parent="ocean_bg6" index="1" unique_id=503959361]
+z_index = -100
+scroll_scale = Vector2(0.03, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg6/moon" index="0" unique_id=79233303]
+scale = Vector2(2, 2)
+texture = ExtResource("16_qfsro")
+centered = false
+
+[node name="cloud" type="Parallax2D" parent="ocean_bg6" index="2" unique_id=1796839504]
+z_index = -100
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-15, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg6/cloud" index="0" unique_id=806098227]
+scale = Vector2(2, 2)
+texture = ExtResource("17_espq1")
+centered = false
+
+[node name="shadow" type="Parallax2D" parent="ocean_bg6" index="3" unique_id=1120198571]
+z_index = -100
+scroll_scale = Vector2(0.03, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg6/shadow" index="0" unique_id=59878501]
+scale = Vector2(2, 2)
+texture = ExtResource("18_41wfy")
+centered = false
+
+[node name="ocean_bg8" type="Node2D" parent="." index="8" unique_id=1172680871]
+modulate = Color(1, 1, 1, 0)
+
+[node name="bg" type="Parallax2D" parent="ocean_bg8" index="0" unique_id=666425046]
+z_index = -100
+scroll_scale = Vector2(0, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg8/bg" index="0" unique_id=1523915764]
+scale = Vector2(2, 2)
+texture = ExtResource("19_4dc7m")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="ocean_bg8/bg" index="1" unique_id=1063949177]
+offset_top = -1789.0
+offset_right = 1152.0
+mouse_filter = 2
+color = Color(0.6392157, 0.74509805, 0.85882354, 1)
+
+[node name="mountain" type="Parallax2D" parent="ocean_bg8" index="1" unique_id=1853674125]
+z_index = -100
+scroll_scale = Vector2(0.02, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg8/mountain" index="0" unique_id=1929631070]
+scale = Vector2(2, 2)
+texture = ExtResource("20_ofoxf")
+centered = false
+
+[node name="cloud1" type="Parallax2D" parent="ocean_bg8" index="2" unique_id=696916897]
+z_index = -100
+scroll_scale = Vector2(0.1, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-15, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg8/cloud1" index="0" unique_id=1635424242]
+scale = Vector2(2, 2)
+texture = ExtResource("21_4rk2c")
+centered = false
+
+[node name="cloud2" type="Parallax2D" parent="ocean_bg8" index="3" unique_id=1796387567]
+z_index = -100
+scroll_scale = Vector2(0.2, 1)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-15, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg8/cloud2" index="0" unique_id=723734418]
+scale = Vector2(2, 2)
+texture = ExtResource("22_d8r48")
+centered = false
+
+[node name="moon" type="Parallax2D" parent="ocean_bg8" index="4" unique_id=1611599404]
+z_index = -100
+scroll_scale = Vector2(0.01, 1)
+repeat_size = Vector2(1152, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ocean_bg8/moon" index="0" unique_id=1708976193]
+scale = Vector2(2, 2)
+texture = ExtResource("23_tiqg7")
+centered = false
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." index="9" unique_id=33414817]
+scale = Vector2(0.5, 0.5)
+tile_map_data = PackedByteArray("AAD//wcAAgAAAAAAAAAAAAcAAgAAAAAAAAABAAcAAgAAAAAAAAACAAcAAgAAAAAAAAADAAcAAgAAAAAAAAAEAAcAHQAAAAAAAAAFAAcAHQAAAAAAAAAGAAcAHQAAAAAAAAAHAAcAHQAAAAAAAAAIAAcAHQAAAAAAAAA=")
+tile_set = SubResource("TileSet_dn8ih")
+
+[node name="PortalShip" parent="." index="10" unique_id=1468206050 instance=ExtResource("42_01ysa")]
+position = Vector2(183, 347)
+scale = Vector2(0.7, 0.7)
+
+[node name="haidang6_block" parent="." index="11" unique_id=1822863251 instance=ExtResource("63_4rk2c")]
+position = Vector2(1463, 448)
+scale = Vector2(2, 2)
+
+[node name="haidang6_block2" parent="." index="12" unique_id=991457684 instance=ExtResource("63_4rk2c")]
+position = Vector2(2276, 443)
+scale = Vector2(2, 2)
+
+[node name="ballon2_block" parent="." index="13" unique_id=822513413 instance=ExtResource("64_d8r48")]
+position = Vector2(820, 70)
+
+[node name="ballon3_block" parent="." index="14" unique_id=1147847805 instance=ExtResource("65_tiqg7")]
+position = Vector2(1887, -1)
+
+[node name="ballon2_block2" parent="." index="15" unique_id=602937713 instance=ExtResource("64_d8r48")]
+position = Vector2(2634, 31)
+
+[node name="ballon4_block" parent="." index="16" unique_id=450202860 instance=ExtResource("66_umwtk")]
+position = Vector2(3085, 143.00002)
+scale = Vector2(0.8, 0.8)
+
+[node name="ballon5_block" parent="." index="17" unique_id=1345458289 instance=ExtResource("67_3wjry")]
+position = Vector2(2876, -28)
+
+[node name="haidang4_block" parent="." index="18" unique_id=431792038 instance=ExtResource("68_v1v40")]
+position = Vector2(4072, 454.99997)
+scale = Vector2(0.7, 0.7)
+
+[node name="ballon_block" parent="." index="19" unique_id=506870236 instance=ExtResource("69_v1v40")]
+position = Vector2(4336, -76)
+
+[node name="ballon6_block" parent="." index="20" unique_id=336751455 instance=ExtResource("70_ldc6e")]
+position = Vector2(4579, 372)
+
+[node name="ballon2_block3" parent="." index="21" unique_id=9011234 instance=ExtResource("64_d8r48")]
+position = Vector2(4987, 44)
+
+[node name="ballon4_block2" parent="." index="22" unique_id=1460653468 instance=ExtResource("66_umwtk")]
+position = Vector2(4816, -196)
+
+[node name="ballon_block2" parent="." index="23" unique_id=696730502 instance=ExtResource("69_v1v40")]
+position = Vector2(5616, 440)
+
+[node name="ballon3_block2" parent="." index="24" unique_id=2060993566 instance=ExtResource("65_tiqg7")]
+position = Vector2(5250, 146)
+
+[node name="ballon5_block2" parent="." index="25" unique_id=288512898 instance=ExtResource("67_3wjry")]
+position = Vector2(5721, -12)
+
+[node name="haidang3_block" parent="." index="26" unique_id=1232556068 instance=ExtResource("71_ldc6e")]
+position = Vector2(6576, 350)
+scale = Vector2(2, 2)
+
+[node name="seagull_spike" parent="." index="27" unique_id=1314194643 instance=ExtResource("72_1pbux")]
+position = Vector2(2127, -63)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike6" parent="." index="28" unique_id=1171358487 instance=ExtResource("72_1pbux")]
+position = Vector2(2456, -63.000004)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike7" parent="." index="29" unique_id=1583372614 instance=ExtResource("72_1pbux")]
+position = Vector2(3942, -119)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike11" parent="." index="30" unique_id=1143351903 instance=ExtResource("72_1pbux")]
+position = Vector2(6012, -212.00002)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike13" parent="." index="31" unique_id=753469161 instance=ExtResource("72_1pbux")]
+position = Vector2(6641, -337)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike14" parent="." index="32" unique_id=697244192 instance=ExtResource("72_1pbux")]
+position = Vector2(6999, 329)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike15" parent="." index="33" unique_id=422829100 instance=ExtResource("72_1pbux")]
+position = Vector2(7693.0005, 418)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike17" parent="." index="34" unique_id=206124103 instance=ExtResource("72_1pbux")]
+position = Vector2(8085, -65)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike18" parent="." index="35" unique_id=880354639 instance=ExtResource("72_1pbux")]
+position = Vector2(9253, 57)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike21" parent="." index="36" unique_id=141284501 instance=ExtResource("72_1pbux")]
+position = Vector2(9514, -0.9999962)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike22" parent="." index="37" unique_id=1611729160 instance=ExtResource("72_1pbux")]
+position = Vector2(9829, 115)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike24" parent="." index="38" unique_id=498448373 instance=ExtResource("72_1pbux")]
+position = Vector2(10186, -13)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike25" parent="." index="39" unique_id=1265905785 instance=ExtResource("72_1pbux")]
+position = Vector2(10501, -59)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike26" parent="." index="40" unique_id=327185612 instance=ExtResource("72_1pbux")]
+position = Vector2(10505, 408)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike27" parent="." index="41" unique_id=1178099349 instance=ExtResource("72_1pbux")]
+position = Vector2(10926, 360.00003)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike28" parent="." index="42" unique_id=770244542 instance=ExtResource("72_1pbux")]
+position = Vector2(11598, 518)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike29" parent="." index="43" unique_id=387083577 instance=ExtResource("72_1pbux")]
+position = Vector2(11936, 657)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike30" parent="." index="44" unique_id=1909969043 instance=ExtResource("72_1pbux")]
+position = Vector2(12515, 705)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike31" parent="." index="45" unique_id=1966653644 instance=ExtResource("72_1pbux")]
+position = Vector2(12901, 599)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike32" parent="." index="46" unique_id=704720821 instance=ExtResource("72_1pbux")]
+position = Vector2(12989.001, -87)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike33" parent="." index="47" unique_id=2112614023 instance=ExtResource("72_1pbux")]
+position = Vector2(13319, -149)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike34" parent="." index="48" unique_id=475288008 instance=ExtResource("72_1pbux")]
+position = Vector2(13583, -75)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike35" parent="." index="49" unique_id=835729177 instance=ExtResource("72_1pbux")]
+position = Vector2(14152, 470)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike37" parent="." index="50" unique_id=1842739002 instance=ExtResource("72_1pbux")]
+position = Vector2(15621, 478)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike92" parent="." index="51" unique_id=1698694303 instance=ExtResource("72_1pbux")]
+position = Vector2(15201.001, 531)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike38" parent="." index="52" unique_id=1644335182 instance=ExtResource("72_1pbux")]
+position = Vector2(16010.001, 542)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike93" parent="." index="53" unique_id=897063331 instance=ExtResource("72_1pbux")]
+position = Vector2(16515, 583)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike94" parent="." index="54" unique_id=1339538291 instance=ExtResource("72_1pbux")]
+position = Vector2(17120, 453)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike95" parent="." index="55" unique_id=1140115936 instance=ExtResource("72_1pbux")]
+position = Vector2(17112, -13.9999695)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike97" parent="." index="56" unique_id=1987062945 instance=ExtResource("72_1pbux")]
+position = Vector2(17888, 469)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike96" parent="." index="57" unique_id=888988933 instance=ExtResource("72_1pbux")]
+position = Vector2(18046, 73)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike98" parent="." index="58" unique_id=2080719855 instance=ExtResource("72_1pbux")]
+position = Vector2(18850, 329)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike99" parent="." index="59" unique_id=65792428 instance=ExtResource("72_1pbux")]
+position = Vector2(19439, 525)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike100" parent="." index="60" unique_id=1783583856 instance=ExtResource("72_1pbux")]
+position = Vector2(19858, 514)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike107" parent="." index="61" unique_id=1437082882 instance=ExtResource("72_1pbux")]
+position = Vector2(20520, -226)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike101" parent="." index="62" unique_id=218603318 instance=ExtResource("72_1pbux")]
+position = Vector2(19907, -160)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike104" parent="." index="63" unique_id=1703262487 instance=ExtResource("72_1pbux")]
+position = Vector2(19940, -115)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike105" parent="." index="64" unique_id=1590235327 instance=ExtResource("72_1pbux")]
+position = Vector2(19975, -64.00001)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike106" parent="." index="65" unique_id=1990297114 instance=ExtResource("72_1pbux")]
+position = Vector2(20006, -229)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike102" parent="." index="66" unique_id=965069859 instance=ExtResource("72_1pbux")]
+position = Vector2(19958, -193)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike103" parent="." index="67" unique_id=1939487944 instance=ExtResource("72_1pbux")]
+position = Vector2(19958, -193)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike39" parent="." index="68" unique_id=1732888881 instance=ExtResource("72_1pbux")]
+position = Vector2(16018, 106)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike40" parent="." index="69" unique_id=492226384 instance=ExtResource("72_1pbux")]
+position = Vector2(16344, 59)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike41" parent="." index="70" unique_id=1215792196 instance=ExtResource("72_1pbux")]
+position = Vector2(20747, 432)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike108" parent="." index="71" unique_id=1758111588 instance=ExtResource("72_1pbux")]
+position = Vector2(20922, 509.00003)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike109" parent="." index="72" unique_id=506428110 instance=ExtResource("72_1pbux")]
+position = Vector2(21056, 427)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike110" parent="." index="73" unique_id=924226934 instance=ExtResource("72_1pbux")]
+position = Vector2(21394, 520)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike112" parent="." index="74" unique_id=1552621823 instance=ExtResource("72_1pbux")]
+position = Vector2(21726, 288)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike114" parent="." index="75" unique_id=1429932293 instance=ExtResource("72_1pbux")]
+position = Vector2(22222, 131.9998)
+rotation = 0.13205914
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike115" parent="." index="76" unique_id=2121833483 instance=ExtResource("72_1pbux")]
+position = Vector2(22560.002, 59.999977)
+rotation = 0.13205914
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike113" parent="." index="77" unique_id=1043251419 instance=ExtResource("72_1pbux")]
+position = Vector2(21769, 550)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike111" parent="." index="78" unique_id=21277008 instance=ExtResource("72_1pbux")]
+position = Vector2(21543, 222)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike42" parent="." index="79" unique_id=1391342167 instance=ExtResource("72_1pbux")]
+position = Vector2(22891, 46)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike43" parent="." index="80" unique_id=222976681 instance=ExtResource("72_1pbux")]
+position = Vector2(23165, 129)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike44" parent="." index="81" unique_id=365738675 instance=ExtResource("72_1pbux")]
+position = Vector2(23569, -97)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike45" parent="." index="82" unique_id=1716124527 instance=ExtResource("72_1pbux")]
+position = Vector2(24046, -71)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike47" parent="." index="83" unique_id=1952036629 instance=ExtResource("72_1pbux")]
+position = Vector2(24524, -124)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike48" parent="." index="84" unique_id=1449223734 instance=ExtResource("72_1pbux")]
+position = Vector2(24948, -139)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike49" parent="." index="85" unique_id=1528619610 instance=ExtResource("72_1pbux")]
+position = Vector2(25202, -26)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike50" parent="." index="86" unique_id=523053062 instance=ExtResource("72_1pbux")]
+position = Vector2(25498, -187)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike51" parent="." index="87" unique_id=868766724 instance=ExtResource("72_1pbux")]
+position = Vector2(25746, 71)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike52" parent="." index="88" unique_id=1205698115 instance=ExtResource("72_1pbux")]
+position = Vector2(28287.002, 471)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike54" parent="." index="89" unique_id=1571604789 instance=ExtResource("72_1pbux")]
+position = Vector2(28576, 435)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike55" parent="." index="90" unique_id=1235524595 instance=ExtResource("72_1pbux")]
+position = Vector2(28783, -3)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike56" parent="." index="91" unique_id=140757796 instance=ExtResource("72_1pbux")]
+position = Vector2(28783, -3)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike57" parent="." index="92" unique_id=716799600 instance=ExtResource("72_1pbux")]
+position = Vector2(29349, 171)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike61" parent="." index="93" unique_id=1109373710 instance=ExtResource("72_1pbux")]
+position = Vector2(29390, 220)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike62" parent="." index="94" unique_id=1167248764 instance=ExtResource("72_1pbux")]
+position = Vector2(29438, 265)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike63" parent="." index="95" unique_id=516398308 instance=ExtResource("72_1pbux")]
+position = Vector2(29484, 303)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike58" parent="." index="96" unique_id=78384011 instance=ExtResource("72_1pbux")]
+position = Vector2(29397, 132)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike59" parent="." index="97" unique_id=1040979311 instance=ExtResource("72_1pbux")]
+position = Vector2(29447, 96)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike60" parent="." index="98" unique_id=1471173802 instance=ExtResource("72_1pbux")]
+position = Vector2(29491, 56)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike64" parent="." index="99" unique_id=959747702 instance=ExtResource("72_1pbux")]
+position = Vector2(30218, 416)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike65" parent="." index="100" unique_id=551432010 instance=ExtResource("72_1pbux")]
+position = Vector2(30259, 465)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike66" parent="." index="101" unique_id=1119900619 instance=ExtResource("72_1pbux")]
+position = Vector2(30307, 510)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike67" parent="." index="102" unique_id=2089080947 instance=ExtResource("72_1pbux")]
+position = Vector2(30353, 548)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike68" parent="." index="103" unique_id=688998237 instance=ExtResource("72_1pbux")]
+position = Vector2(30266, 377)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike69" parent="." index="104" unique_id=905062443 instance=ExtResource("72_1pbux")]
+position = Vector2(30316, 341)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike70" parent="." index="105" unique_id=70666097 instance=ExtResource("72_1pbux")]
+position = Vector2(30360, 301)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike71" parent="." index="106" unique_id=1261052061 instance=ExtResource("72_1pbux")]
+position = Vector2(30671, -76)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike72" parent="." index="107" unique_id=1878146922 instance=ExtResource("72_1pbux")]
+position = Vector2(30712, -27)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike73" parent="." index="108" unique_id=740390031 instance=ExtResource("72_1pbux")]
+position = Vector2(30760, 18)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike74" parent="." index="109" unique_id=587515329 instance=ExtResource("72_1pbux")]
+position = Vector2(30806, 56)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike75" parent="." index="110" unique_id=805616899 instance=ExtResource("72_1pbux")]
+position = Vector2(30719, -115)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike76" parent="." index="111" unique_id=1693423567 instance=ExtResource("72_1pbux")]
+position = Vector2(30769, -151)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike77" parent="." index="112" unique_id=540276289 instance=ExtResource("72_1pbux")]
+position = Vector2(30813, -191)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike78" parent="." index="113" unique_id=480888241 instance=ExtResource("72_1pbux")]
+position = Vector2(31132, 20)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike79" parent="." index="114" unique_id=1124859194 instance=ExtResource("72_1pbux")]
+position = Vector2(31173, 69)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike80" parent="." index="115" unique_id=1079566448 instance=ExtResource("72_1pbux")]
+position = Vector2(31221, 114)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike81" parent="." index="116" unique_id=1291809855 instance=ExtResource("72_1pbux")]
+position = Vector2(31267, 152)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike82" parent="." index="117" unique_id=28538477 instance=ExtResource("72_1pbux")]
+position = Vector2(31180, -19)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike83" parent="." index="118" unique_id=726875518 instance=ExtResource("72_1pbux")]
+position = Vector2(31230, -55)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike84" parent="." index="119" unique_id=382731355 instance=ExtResource("72_1pbux")]
+position = Vector2(31274, -95)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike85" parent="." index="120" unique_id=200299561 instance=ExtResource("72_1pbux")]
+position = Vector2(31536, 182)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike86" parent="." index="121" unique_id=1460926646 instance=ExtResource("72_1pbux")]
+position = Vector2(31577, 231)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike87" parent="." index="122" unique_id=253148633 instance=ExtResource("72_1pbux")]
+position = Vector2(31625, 276)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike88" parent="." index="123" unique_id=681215885 instance=ExtResource("72_1pbux")]
+position = Vector2(31671, 314)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike116" parent="." index="124" unique_id=1871393321 instance=ExtResource("72_1pbux")]
+position = Vector2(33239, -45)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike117" parent="." index="125" unique_id=1325161783 instance=ExtResource("72_1pbux")]
+position = Vector2(33507, 12)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike118" parent="." index="126" unique_id=1725166062 instance=ExtResource("72_1pbux")]
+position = Vector2(33862, -94)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike119" parent="." index="127" unique_id=75442223 instance=ExtResource("72_1pbux")]
+position = Vector2(34128, 102)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike120" parent="." index="128" unique_id=1228219984 instance=ExtResource("72_1pbux")]
+position = Vector2(34756, 531)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike121" parent="." index="129" unique_id=1126901252 instance=ExtResource("72_1pbux")]
+position = Vector2(36152, 496)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike124" parent="." index="130" unique_id=2058832872 instance=ExtResource("72_1pbux")]
+position = Vector2(35890, -17)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike122" parent="." index="131" unique_id=81573624 instance=ExtResource("72_1pbux")]
+position = Vector2(36682, 546)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike123" parent="." index="132" unique_id=781340974 instance=ExtResource("72_1pbux")]
+position = Vector2(37513, 491)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike89" parent="." index="133" unique_id=1640733663 instance=ExtResource("72_1pbux")]
+position = Vector2(31584, 143)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike90" parent="." index="134" unique_id=1833202446 instance=ExtResource("72_1pbux")]
+position = Vector2(31634, 107)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike91" parent="." index="135" unique_id=164760298 instance=ExtResource("72_1pbux")]
+position = Vector2(31678, 67)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike125" parent="." index="136" unique_id=1836412631 instance=ExtResource("72_1pbux")]
+position = Vector2(36808, -265)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike126" parent="." index="137" unique_id=2026145466 instance=ExtResource("72_1pbux")]
+position = Vector2(36849, -216)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike127" parent="." index="138" unique_id=1431949807 instance=ExtResource("72_1pbux")]
+position = Vector2(36897, -171)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike128" parent="." index="139" unique_id=1625566393 instance=ExtResource("72_1pbux")]
+position = Vector2(36943, -133)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike129" parent="." index="140" unique_id=2257122 instance=ExtResource("72_1pbux")]
+position = Vector2(36856, -304)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike130" parent="." index="141" unique_id=1105885170 instance=ExtResource("72_1pbux")]
+position = Vector2(36906, -340)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike131" parent="." index="142" unique_id=207054242 instance=ExtResource("72_1pbux")]
+position = Vector2(36950, -380)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike132" parent="." index="143" unique_id=1586011963 instance=ExtResource("72_1pbux")]
+position = Vector2(37669, -103)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike133" parent="." index="144" unique_id=1248118137 instance=ExtResource("72_1pbux")]
+position = Vector2(37710, -54)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike134" parent="." index="145" unique_id=17159124 instance=ExtResource("72_1pbux")]
+position = Vector2(37758, -9)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike135" parent="." index="146" unique_id=559708935 instance=ExtResource("72_1pbux")]
+position = Vector2(37804, 29)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike136" parent="." index="147" unique_id=103473465 instance=ExtResource("72_1pbux")]
+position = Vector2(37717, -142)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike137" parent="." index="148" unique_id=678948185 instance=ExtResource("72_1pbux")]
+position = Vector2(37767, -178)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike138" parent="." index="149" unique_id=1027089878 instance=ExtResource("72_1pbux")]
+position = Vector2(37811, -218)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike139" parent="." index="150" unique_id=274558804 instance=ExtResource("72_1pbux")]
+position = Vector2(38806, -8)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike146" parent="." index="151" unique_id=558673121 instance=ExtResource("72_1pbux")]
+position = Vector2(42077, 523)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike147" parent="." index="152" unique_id=1722745144 instance=ExtResource("72_1pbux")]
+position = Vector2(42386, 540)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike152" parent="." index="153" unique_id=1764763151 instance=ExtResource("72_1pbux")]
+position = Vector2(42324, 9)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike153" parent="." index="154" unique_id=606077534 instance=ExtResource("72_1pbux")]
+position = Vector2(42650, -49)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike154" parent="." index="155" unique_id=331702976 instance=ExtResource("72_1pbux")]
+position = Vector2(42795, 92)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike155" parent="." index="156" unique_id=2042643774 instance=ExtResource("72_1pbux")]
+position = Vector2(43216, -91)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike156" parent="." index="157" unique_id=1397176050 instance=ExtResource("72_1pbux")]
+position = Vector2(43619, -110)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike157" parent="." index="158" unique_id=1863597381 instance=ExtResource("72_1pbux")]
+position = Vector2(44184, -244)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike158" parent="." index="159" unique_id=1193463406 instance=ExtResource("72_1pbux")]
+position = Vector2(44399, -232)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike159" parent="." index="160" unique_id=1244026360 instance=ExtResource("72_1pbux")]
+position = Vector2(47018, 7)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike160" parent="." index="161" unique_id=994206340 instance=ExtResource("72_1pbux")]
+position = Vector2(47229, 493)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike164" parent="." index="162" unique_id=169121544 instance=ExtResource("72_1pbux")]
+position = Vector2(47567, 493)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike165" parent="." index="163" unique_id=577551866 instance=ExtResource("72_1pbux")]
+position = Vector2(47872, 493)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike161" parent="." index="164" unique_id=529899132 instance=ExtResource("72_1pbux")]
+position = Vector2(47328, -50)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike162" parent="." index="165" unique_id=1349756699 instance=ExtResource("72_1pbux")]
+position = Vector2(47623, -136)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike163" parent="." index="166" unique_id=937008907 instance=ExtResource("72_1pbux")]
+position = Vector2(47781, 9)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike166" parent="." index="167" unique_id=1732175579 instance=ExtResource("72_1pbux")]
+position = Vector2(48045, -49)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike167" parent="." index="168" unique_id=1651360657 instance=ExtResource("72_1pbux")]
+position = Vector2(48321, -143)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike168" parent="." index="169" unique_id=2001479635 instance=ExtResource("72_1pbux")]
+position = Vector2(48547, -41)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike169" parent="." index="170" unique_id=257615187 instance=ExtResource("72_1pbux")]
+position = Vector2(48904, -8)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike170" parent="." index="171" unique_id=1145827987 instance=ExtResource("72_1pbux")]
+position = Vector2(48761, 367)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike171" parent="." index="172" unique_id=431501348 instance=ExtResource("72_1pbux")]
+position = Vector2(49056, 343)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike172" parent="." index="173" unique_id=1461263421 instance=ExtResource("72_1pbux")]
+position = Vector2(49344, 516)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike173" parent="." index="174" unique_id=650991010 instance=ExtResource("72_1pbux")]
+position = Vector2(49267.004, -4)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike174" parent="." index="175" unique_id=415092514 instance=ExtResource("72_1pbux")]
+position = Vector2(49504, 106)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike175" parent="." index="176" unique_id=1208899438 instance=ExtResource("72_1pbux")]
+position = Vector2(49615, 449)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike179" parent="." index="177" unique_id=616399449 instance=ExtResource("72_1pbux")]
+position = Vector2(49615, 449)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike180" parent="." index="178" unique_id=1217357932 instance=ExtResource("72_1pbux")]
+position = Vector2(49930, 492)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike176" parent="." index="179" unique_id=2145412703 instance=ExtResource("72_1pbux")]
+position = Vector2(49687, 20)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike177" parent="." index="180" unique_id=539616099 instance=ExtResource("72_1pbux")]
+position = Vector2(49956, -97)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike178" parent="." index="181" unique_id=795789590 instance=ExtResource("72_1pbux")]
+position = Vector2(50206.004, -102)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike181" parent="." index="182" unique_id=1760690731 instance=ExtResource("72_1pbux")]
+position = Vector2(51660, 488)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike182" parent="." index="183" unique_id=836018808 instance=ExtResource("72_1pbux")]
+position = Vector2(51991.004, 532)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike183" parent="." index="184" unique_id=1074305515 instance=ExtResource("72_1pbux")]
+position = Vector2(53005.004, -46)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike185" parent="." index="185" unique_id=1072142387 instance=ExtResource("72_1pbux")]
+position = Vector2(53325, -177)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike187" parent="." index="186" unique_id=1646951587 instance=ExtResource("72_1pbux")]
+position = Vector2(53646.004, -24)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike188" parent="." index="187" unique_id=1663941062 instance=ExtResource("72_1pbux")]
+position = Vector2(55236.004, 341)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike190" parent="." index="188" unique_id=759695890 instance=ExtResource("72_1pbux")]
+position = Vector2(56151.004, -188)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike191" parent="." index="189" unique_id=1447004953 instance=ExtResource("72_1pbux")]
+position = Vector2(55655.004, -131)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike192" parent="." index="190" unique_id=1234464107 instance=ExtResource("72_1pbux")]
+position = Vector2(56322, -102)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike193" parent="." index="191" unique_id=1509632671 instance=ExtResource("72_1pbux")]
+position = Vector2(56363.004, 445)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike194" parent="." index="192" unique_id=1222268429 instance=ExtResource("72_1pbux")]
+position = Vector2(56665, 536)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike195" parent="." index="193" unique_id=10620926 instance=ExtResource("72_1pbux")]
+position = Vector2(57784, 33)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike196" parent="." index="194" unique_id=1351030988 instance=ExtResource("72_1pbux")]
+position = Vector2(58206, 93)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike197" parent="." index="195" unique_id=1313247262 instance=ExtResource("72_1pbux")]
+position = Vector2(58569.004, 25)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike198" parent="." index="196" unique_id=834025921 instance=ExtResource("72_1pbux")]
+position = Vector2(58828.004, 144)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike199" parent="." index="197" unique_id=769585232 instance=ExtResource("72_1pbux")]
+position = Vector2(59214, 73)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike200" parent="." index="198" unique_id=804405533 instance=ExtResource("72_1pbux")]
+position = Vector2(59335.004, 412.00003)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike201" parent="." index="199" unique_id=197310758 instance=ExtResource("72_1pbux")]
+position = Vector2(59624, 494)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike202" parent="." index="200" unique_id=851012282 instance=ExtResource("72_1pbux")]
+position = Vector2(59940, 494)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike203" parent="." index="201" unique_id=1951911077 instance=ExtResource("72_1pbux")]
+position = Vector2(59483.004, -23)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike204" parent="." index="202" unique_id=1755327171 instance=ExtResource("72_1pbux")]
+position = Vector2(59754, -83)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike205" parent="." index="203" unique_id=1775245978 instance=ExtResource("72_1pbux")]
+position = Vector2(59908.004, 16)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike206" parent="." index="204" unique_id=1777093675 instance=ExtResource("72_1pbux")]
+position = Vector2(60253, -58)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike215" parent="." index="205" unique_id=668914735 instance=ExtResource("72_1pbux")]
+position = Vector2(60913, -77)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike216" parent="." index="206" unique_id=1104120514 instance=ExtResource("72_1pbux")]
+position = Vector2(61094, 413)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike217" parent="." index="207" unique_id=1131319208 instance=ExtResource("72_1pbux")]
+position = Vector2(61252, -25)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike220" parent="." index="208" unique_id=1458434598 instance=ExtResource("72_1pbux")]
+position = Vector2(61910, 382)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike221" parent="." index="209" unique_id=331291368 instance=ExtResource("72_1pbux")]
+position = Vector2(61571, 569)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike218" parent="." index="210" unique_id=1419119947 instance=ExtResource("72_1pbux")]
+position = Vector2(61578, -83)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike219" parent="." index="211" unique_id=385572642 instance=ExtResource("72_1pbux")]
+position = Vector2(61881.004, -89)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike207" parent="." index="212" unique_id=2102247556 instance=ExtResource("72_1pbux")]
+position = Vector2(62406.004, 491)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike208" parent="." index="213" unique_id=1602507496 instance=ExtResource("72_1pbux")]
+position = Vector2(62590.004, 577.0001)
+rotation = 0.02058065
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike209" parent="." index="214" unique_id=2029147824 instance=ExtResource("72_1pbux")]
+position = Vector2(62761, 644.00006)
+rotation = 0.02058065
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike210" parent="." index="215" unique_id=1692565222 instance=ExtResource("72_1pbux")]
+position = Vector2(62981, 673.99994)
+rotation = 0.02058065
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike211" parent="." index="216" unique_id=1355705143 instance=ExtResource("72_1pbux")]
+position = Vector2(63199.004, 706.0001)
+rotation = 0.02058065
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike214" parent="." index="217" unique_id=635935009 instance=ExtResource("72_1pbux")]
+position = Vector2(63405.004, 764)
+rotation = 0.02058065
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike212" parent="." index="218" unique_id=2093763006 instance=ExtResource("72_1pbux")]
+position = Vector2(63391.004, 438.0001)
+rotation = 0.02058065
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike213" parent="." index="219" unique_id=1615674810 instance=ExtResource("72_1pbux")]
+position = Vector2(63279.004, 396.0001)
+rotation = 0.02058065
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike189" parent="." index="220" unique_id=1027919287 instance=ExtResource("72_1pbux")]
+position = Vector2(55527.004, 444)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike184" parent="." index="221" unique_id=638532879 instance=ExtResource("72_1pbux")]
+position = Vector2(53184, 472)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike148" parent="." index="222" unique_id=1948210167 instance=ExtResource("72_1pbux")]
+position = Vector2(42643.004, 488.00098)
+rotation = 0.24964908
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike149" parent="." index="223" unique_id=535960582 instance=ExtResource("72_1pbux")]
+position = Vector2(42952, 416.99902)
+rotation = 0.24964908
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike150" parent="." index="224" unique_id=544822199 instance=ExtResource("72_1pbux")]
+position = Vector2(43213, 556.001)
+rotation = 0.24964908
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike151" parent="." index="225" unique_id=1683226591 instance=ExtResource("72_1pbux")]
+position = Vector2(43541, 375)
+rotation = 0.24964908
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike140" parent="." index="226" unique_id=816421423 instance=ExtResource("72_1pbux")]
+position = Vector2(38847, 41)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike141" parent="." index="227" unique_id=761193190 instance=ExtResource("72_1pbux")]
+position = Vector2(38895, 86)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike142" parent="." index="228" unique_id=352092050 instance=ExtResource("72_1pbux")]
+position = Vector2(38941, 124)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike143" parent="." index="229" unique_id=853937956 instance=ExtResource("72_1pbux")]
+position = Vector2(38854, -47)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike144" parent="." index="230" unique_id=1764470433 instance=ExtResource("72_1pbux")]
+position = Vector2(38904, -83)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike145" parent="." index="231" unique_id=1059109309 instance=ExtResource("72_1pbux")]
+position = Vector2(38948, -123)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike53" parent="." index="232" unique_id=469756473 instance=ExtResource("72_1pbux")]
+position = Vector2(28470, 94)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike46" parent="." index="233" unique_id=156273522 instance=ExtResource("72_1pbux")]
+position = Vector2(24454, 408.00003)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike36" parent="." index="234" unique_id=1494601861 instance=ExtResource("72_1pbux")]
+position = Vector2(14821, -121)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike23" parent="." index="235" unique_id=387413482 instance=ExtResource("72_1pbux")]
+position = Vector2(9626, 399)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike19" parent="." index="236" unique_id=48552349 instance=ExtResource("72_1pbux")]
+position = Vector2(9154, 355)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike20" parent="." index="237" unique_id=1327654057 instance=ExtResource("72_1pbux")]
+position = Vector2(8990, 465)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike16" parent="." index="238" unique_id=1264686959 instance=ExtResource("72_1pbux")]
+position = Vector2(7378, 194)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike12" parent="." index="239" unique_id=352913944 instance=ExtResource("72_1pbux")]
+position = Vector2(6333, -364)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike8" parent="." index="240" unique_id=646611576 instance=ExtResource("72_1pbux")]
+position = Vector2(3727.0002, -41)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike9" parent="." index="241" unique_id=61586093 instance=ExtResource("72_1pbux")]
+position = Vector2(3389, -75)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike10" parent="." index="242" unique_id=61406760 instance=ExtResource("72_1pbux")]
+position = Vector2(3592, -176)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike2" parent="." index="243" unique_id=1738975472 instance=ExtResource("72_1pbux")]
+position = Vector2(1268, -22.000004)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike3" parent="." index="244" unique_id=1956779625 instance=ExtResource("72_1pbux")]
+position = Vector2(1053, -53)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike4" parent="." index="245" unique_id=305264494 instance=ExtResource("72_1pbux")]
+position = Vector2(1769, -136)
+scale = Vector2(0.3, 0.3)
+
+[node name="seagull_spike5" parent="." index="246" unique_id=842288563 instance=ExtResource("72_1pbux")]
+position = Vector2(1523, -119)
+scale = Vector2(0.3, 0.3)
+
+[node name="ballon3_block3" parent="." index="247" unique_id=1558063415 instance=ExtResource("65_tiqg7")]
+position = Vector2(6998, -414)
+
+[node name="ballon5_block3" parent="." index="248" unique_id=110794491 instance=ExtResource("67_3wjry")]
+position = Vector2(7379, -260)
+
+[node name="ballon6_block2" parent="." index="249" unique_id=359188109 instance=ExtResource("70_ldc6e")]
+position = Vector2(7735, -131)
+
+[node name="ballon6_block3" parent="." index="250" unique_id=2141098177 instance=ExtResource("70_ldc6e")]
+position = Vector2(8548, -142)
+
+[node name="finish_line" parent="." index="251" unique_id=823157781 instance=ExtResource("73_p5nlu")]
+z_index = -100
+position = Vector2(63702, 723)
+
+[node name="Sprite2D" parent="finish_line" index="0" unique_id=16171701]
+position = Vector2(-10.8, -117)
+scale = Vector2(0.1915161, 0.08529412)
+texture = ExtResource("74_01ysa")
+region_enabled = true
+region_rect = Rect2(557.1476, 773.121, 2546.775, 2040.9047)
+
+[node name="CollisionShape2D" parent="finish_line" index="1" unique_id=2052635401]
+position = Vector2(-15, -109)
+shape = SubResource("RectangleShape2D_f42xr")
+
+[node name="haidang6_block3" parent="." index="252" unique_id=58431858 instance=ExtResource("63_4rk2c")]
+position = Vector2(8320, 388)
+scale = Vector2(2, 2)
+
+[node name="ballon3_block4" parent="." index="253" unique_id=40468662 instance=ExtResource("65_tiqg7")]
+position = Vector2(8381, -307)
+
+[node name="ballon6_block4" parent="." index="254" unique_id=1479938174 instance=ExtResource("70_ldc6e")]
+position = Vector2(8749, 363)
+
+[node name="ballon4_block3" parent="." index="255" unique_id=1530595657 instance=ExtResource("66_umwtk")]
+position = Vector2(8996, -219)
+
+[node name="haidang5_block" parent="." index="256" unique_id=2043589304 instance=ExtResource("74_y8psb")]
+position = Vector2(10186.001, 521.00006)
+scale = Vector2(3, 3)
+
+[node name="haidang5_block2" parent="." index="257" unique_id=1495002712 instance=ExtResource("74_y8psb")]
+position = Vector2(11136, 523)
+scale = Vector2(3, 3)
+
+[node name="giankhoan_block" parent="." index="258" unique_id=819900069 instance=ExtResource("75_fsvsw")]
+position = Vector2(23000, 464)
+
+[node name="giankhoan_block2" parent="." index="259" unique_id=2051534976 instance=ExtResource("75_fsvsw")]
+position = Vector2(25189, 471)
+
+[node name="giankhoan_block3" parent="." index="260" unique_id=963652813 instance=ExtResource("75_fsvsw")]
+position = Vector2(25989, 472)
+scale = Vector2(-1, 1)
+
+[node name="giankhoan_block4" parent="." index="261" unique_id=474420440 instance=ExtResource("75_fsvsw")]
+position = Vector2(34165, 462)
+scale = Vector2(-1, 1)
+
+[node name="giankhoan_block5" parent="." index="262" unique_id=1758595245 instance=ExtResource("75_fsvsw")]
+position = Vector2(38328, 457)
+scale = Vector2(-1, 1)
+
+[node name="giankhoan_block6" parent="." index="263" unique_id=1368050143 instance=ExtResource("75_fsvsw")]
+position = Vector2(41502, 447)
+scale = Vector2(-1, 1)
+
+[node name="giankhoan_block7" parent="." index="264" unique_id=246856580 instance=ExtResource("75_fsvsw")]
+position = Vector2(53694, 462)
+
+[node name="giankhoan_block8" parent="." index="265" unique_id=1829256773 instance=ExtResource("75_fsvsw")]
+position = Vector2(58873, 462)
+
+[node name="giankhoan_block9" parent="." index="266" unique_id=510785321 instance=ExtResource("75_fsvsw")]
+position = Vector2(58018, 460)
+scale = Vector2(-1, 1)
+
+[node name="ballon4_block4" parent="." index="267" unique_id=457009418 instance=ExtResource("66_umwtk")]
+position = Vector2(11141, -228)
+
+[node name="ballon4_block5" parent="." index="268" unique_id=836222366 instance=ExtResource("66_umwtk")]
+position = Vector2(11764, -119)
+
+[node name="ballon3_block5" parent="." index="269" unique_id=1025052900 instance=ExtResource("65_tiqg7")]
+position = Vector2(12198, 80)
+scale = Vector2(1.5, 1.5)
+
+[node name="ballon5_block4" parent="." index="270" unique_id=1188777055 instance=ExtResource("67_3wjry")]
+position = Vector2(12594, 9)
+scale = Vector2(1.5, 1.5)
+
+[node name="ballon6_block5" parent="." index="271" unique_id=2128864619 instance=ExtResource("70_ldc6e")]
+position = Vector2(13143, 431)
+
+[node name="haidang3_block2" parent="." index="272" unique_id=1290915285 instance=ExtResource("71_ldc6e")]
+position = Vector2(13539.001, 445)
+scale = Vector2(1.5, 1.5)
+
+[node name="haidang6_block4" parent="." index="273" unique_id=1685483269 instance=ExtResource("63_4rk2c")]
+position = Vector2(14754, 436)
+scale = Vector2(2, 2)
+
+[node name="haidang6_block5" parent="." index="274" unique_id=1798059379 instance=ExtResource("63_4rk2c")]
+position = Vector2(17470, 450)
+scale = Vector2(2, 2)
+
+[node name="ballon_block3" parent="." index="275" unique_id=1526309700 instance=ExtResource("69_v1v40")]
+position = Vector2(14009, -92)
+
+[node name="ballon_block4" parent="." index="276" unique_id=2064243745 instance=ExtResource("69_v1v40")]
+position = Vector2(14424, -53)
+
+[node name="ballon4_block6" parent="." index="277" unique_id=1892765487 instance=ExtResource("66_umwtk")]
+position = Vector2(15211, -138)
+
+[node name="ballon4_block7" parent="." index="278" unique_id=1955003729 instance=ExtResource("66_umwtk")]
+position = Vector2(15700, -30)
+
+[node name="ballon4_block10" parent="." index="279" unique_id=205687285 instance=ExtResource("66_umwtk")]
+position = Vector2(16648, 88)
+
+[node name="haidang3_block3" parent="." index="280" unique_id=562146603 instance=ExtResource("71_ldc6e")]
+position = Vector2(24083, 466)
+scale = Vector2(1.5, 1.5)
+
+[node name="ballon3_block6" parent="." index="281" unique_id=1216690317 instance=ExtResource("65_tiqg7")]
+position = Vector2(26685, 91)
+
+[node name="ballon3_block7" parent="." index="282" unique_id=1945625303 instance=ExtResource("65_tiqg7")]
+position = Vector2(26927, 527)
+
+[node name="ballon3_block8" parent="." index="283" unique_id=1257459552 instance=ExtResource("65_tiqg7")]
+position = Vector2(27094, -28)
+
+[node name="ballon3_block9" parent="." index="284" unique_id=1908783757 instance=ExtResource("65_tiqg7")]
+position = Vector2(27372, 442)
+
+[node name="ballon4_block8" parent="." index="285" unique_id=1512900618 instance=ExtResource("66_umwtk")]
+position = Vector2(27842, -255)
+
+[node name="ballon4_block9" parent="." index="286" unique_id=2029685254 instance=ExtResource("66_umwtk")]
+position = Vector2(30005, -188)
+
+[node name="ballon2_block4" parent="." index="287" unique_id=1184423957 instance=ExtResource("64_d8r48")]
+position = Vector2(27989, 41)
+
+[node name="ballon2_block5" parent="." index="288" unique_id=1619368443 instance=ExtResource("64_d8r48")]
+position = Vector2(28251, -37)
+
+[node name="ballon5_block5" parent="." index="289" unique_id=732895138 instance=ExtResource("67_3wjry")]
+position = Vector2(27458, -100)
+
+[node name="ballon6_block6" parent="." index="290" unique_id=1293400596 instance=ExtResource("70_ldc6e")]
+position = Vector2(27612, 469)
+
+[node name="ballon6_block7" parent="." index="291" unique_id=322704382 instance=ExtResource("70_ldc6e")]
+position = Vector2(27913, 528)
+
+[node name="haidang3_block4" parent="." index="292" unique_id=231400425 instance=ExtResource("71_ldc6e")]
+position = Vector2(32509, 454)
+scale = Vector2(1.5, 1.6)
+
+[node name="ballon2_block6" parent="." index="293" unique_id=230645951 instance=ExtResource("64_d8r48")]
+position = Vector2(17473, -170)
+
+[node name="haidang4_block2" parent="." index="294" unique_id=38969348 instance=ExtResource("68_v1v40")]
+position = Vector2(19081, 456)
+scale = Vector2(0.7, 1)
+
+[node name="ballon5_block6" parent="." index="295" unique_id=2094438381 instance=ExtResource("67_3wjry")]
+position = Vector2(17864, -46)
+
+[node name="ballon5_block7" parent="." index="296" unique_id=1101860133 instance=ExtResource("67_3wjry")]
+position = Vector2(18154, -104)
+
+[node name="ballon5_block8" parent="." index="297" unique_id=2135315806 instance=ExtResource("67_3wjry")]
+position = Vector2(18627, -185)
+
+[node name="ballon3_block10" parent="." index="298" unique_id=1183172454 instance=ExtResource("65_tiqg7")]
+position = Vector2(18160, 194)
+
+[node name="ballon2_block7" parent="." index="299" unique_id=1704746378 instance=ExtResource("64_d8r48")]
+position = Vector2(19534, -144)
+
+[node name="ballon_block5" parent="." index="300" unique_id=181671153 instance=ExtResource("69_v1v40")]
+position = Vector2(18949, -156)
+
+[node name="haidang5_block3" parent="." index="301" unique_id=1596604283 instance=ExtResource("74_y8psb")]
+position = Vector2(20273, 465)
+scale = Vector2(4, 4)
+
+[node name="ballon6_block8" parent="." index="302" unique_id=665165636 instance=ExtResource("70_ldc6e")]
+position = Vector2(20710, -144)
+
+[node name="ballon6_block9" parent="." index="303" unique_id=1766947992 instance=ExtResource("70_ldc6e")]
+position = Vector2(20318, -250)
+
+[node name="ballon6_block10" parent="." index="304" unique_id=605855845 instance=ExtResource("70_ldc6e")]
+position = Vector2(21082, -39)
+
+[node name="ballon5_block9" parent="." index="305" unique_id=1339339480 instance=ExtResource("67_3wjry")]
+position = Vector2(21337, -128)
+
+[node name="ballon5_block10" parent="." index="306" unique_id=164288190 instance=ExtResource("67_3wjry")]
+position = Vector2(21560, -22)
+
+[node name="ballon3_block11" parent="." index="307" unique_id=1718589827 instance=ExtResource("65_tiqg7")]
+position = Vector2(21803, -75)
+
+[node name="ballon2_block8" parent="." index="308" unique_id=1695374622 instance=ExtResource("64_d8r48")]
+position = Vector2(22069, 42)
+
+[node name="ballon2_block9" parent="." index="309" unique_id=1405284517 instance=ExtResource("64_d8r48")]
+position = Vector2(22347, -29)
+
+[node name="ballon3_block12" parent="." index="310" unique_id=1520598855 instance=ExtResource("65_tiqg7")]
+position = Vector2(32159, -79)
+
+[node name="ballon3_block13" parent="." index="311" unique_id=234442539 instance=ExtResource("65_tiqg7")]
+position = Vector2(32474, -111)
+
+[node name="ballon4_block11" parent="." index="312" unique_id=1489896525 instance=ExtResource("66_umwtk")]
+position = Vector2(32882, -226)
+
+[node name="ballon5_block11" parent="." index="313" unique_id=959178435 instance=ExtResource("67_3wjry")]
+position = Vector2(34065, -55)
+
+[node name="ballon5_block12" parent="." index="314" unique_id=76089240 instance=ExtResource("67_3wjry")]
+position = Vector2(34712, 26)
+
+[node name="ballon5_block13" parent="." index="315" unique_id=1900373290 instance=ExtResource("67_3wjry")]
+position = Vector2(35121, 412)
+
+[node name="haidang6_block6" parent="." index="316" unique_id=1213176780 instance=ExtResource("63_4rk2c")]
+position = Vector2(35776, 443)
+scale = Vector2(2, 2)
+
+[node name="haidang6_block7" parent="." index="317" unique_id=1747022986 instance=ExtResource("63_4rk2c")]
+position = Vector2(37046, 438)
+scale = Vector2(2, 2)
+
+[node name="ballon6_block11" parent="." index="318" unique_id=938506027 instance=ExtResource("70_ldc6e")]
+position = Vector2(35277, -98)
+
+[node name="ballon6_block12" parent="." index="319" unique_id=1034559506 instance=ExtResource("70_ldc6e")]
+position = Vector2(35534, -17)
+
+[node name="ballon4_block12" parent="." index="320" unique_id=1861870060 instance=ExtResource("66_umwtk")]
+position = Vector2(36219, -16.999992)
+scale = Vector2(0.7, 0.7)
+
+[node name="ballon4_block13" parent="." index="321" unique_id=987014910 instance=ExtResource("66_umwtk")]
+position = Vector2(36570, 345.99997)
+scale = Vector2(0.7, 0.7)
+
+[node name="Seagull" type="Sprite2D" parent="." index="322" unique_id=1236298207]
+position = Vector2(38996, -74)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("76_f42xr")
+
+[node name="Seagull2" type="Sprite2D" parent="." index="323" unique_id=1334543608]
+position = Vector2(38995, 88)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("76_f42xr")
+
+[node name="haidang3_block5" parent="." index="324" unique_id=231059867 instance=ExtResource("71_ldc6e")]
+position = Vector2(39988, 473.99994)
+scale = Vector2(1.7, 1.7)
+
+[node name="ballon5_block14" parent="." index="325" unique_id=2147267785 instance=ExtResource("67_3wjry")]
+position = Vector2(39623, -48)
+
+[node name="ballon5_block15" parent="." index="326" unique_id=1801243199 instance=ExtResource("67_3wjry")]
+position = Vector2(40040, -184)
+
+[node name="ballon5_block16" parent="." index="327" unique_id=38528923 instance=ExtResource("67_3wjry")]
+position = Vector2(40407, -63)
+
+[node name="ballon3_block14" parent="." index="328" unique_id=672827290 instance=ExtResource("65_tiqg7")]
+position = Vector2(40730, -4)
+
+[node name="ballon3_block15" parent="." index="329" unique_id=285483219 instance=ExtResource("65_tiqg7")]
+position = Vector2(41191, -50)
+
+[node name="ballon2_block10" parent="." index="330" unique_id=335301100 instance=ExtResource("64_d8r48")]
+position = Vector2(41572, -34)
+
+[node name="ballon6_block13" parent="." index="331" unique_id=219536111 instance=ExtResource("70_ldc6e")]
+position = Vector2(41920, -24)
+
+[node name="haidang_block" parent="." index="332" unique_id=1857827182 instance=ExtResource("77_01ysa")]
+position = Vector2(44028, 391)
+scale = Vector2(2.5, 2.5)
+
+[node name="haidang_block2" parent="." index="333" unique_id=334878075 instance=ExtResource("77_01ysa")]
+position = Vector2(50358, 427)
+scale = Vector2(2.5, 2.5)
+
+[node name="haidang_block3" parent="." index="334" unique_id=1665531866 instance=ExtResource("77_01ysa")]
+position = Vector2(56071, 434)
+scale = Vector2(2.5, 2.5)
+
+[node name="haidang2_block" parent="." index="335" unique_id=2084736073 instance=ExtResource("78_lmtve")]
+position = Vector2(46248, 414)
+scale = Vector2(3, 3)
+
+[node name="haidang2_block2" parent="." index="336" unique_id=2144032606 instance=ExtResource("78_lmtve")]
+position = Vector2(48397, 412.00003)
+scale = Vector2(3, 3)
+
+[node name="haidang2_block3" parent="." index="337" unique_id=821009483 instance=ExtResource("78_lmtve")]
+position = Vector2(52313, 420)
+scale = Vector2(3, 3)
+
+[node name="haidang6_block8" parent="." index="338" unique_id=139276713 instance=ExtResource("63_4rk2c")]
+position = Vector2(60315, 441)
+scale = Vector2(2, 2)
+
+[node name="haidang6_block9" parent="." index="339" unique_id=707623396 instance=ExtResource("63_4rk2c")]
+position = Vector2(62101, 450)
+scale = Vector2(2, 2)
+
+[node name="ballon2_block11" parent="." index="340" unique_id=427071483 instance=ExtResource("64_d8r48")]
+position = Vector2(43964, -206)
+
+[node name="ballon4_block14" parent="." index="341" unique_id=1018997202 instance=ExtResource("66_umwtk")]
+position = Vector2(44633, -115)
+scale = Vector2(0.7, 0.7)
+
+[node name="ballon_block6" parent="." index="342" unique_id=1687404545 instance=ExtResource("69_v1v40")]
+position = Vector2(44731, 456)
+
+[node name="ballon_block7" parent="." index="343" unique_id=1742580293 instance=ExtResource("69_v1v40")]
+position = Vector2(45351, 448)
+
+[node name="ballon_block9" parent="." index="344" unique_id=1729573923 instance=ExtResource("69_v1v40")]
+position = Vector2(46775, 416)
+
+[node name="ballon_block8" parent="." index="345" unique_id=1381882996 instance=ExtResource("69_v1v40")]
+position = Vector2(45032, -39)
+
+[node name="ballon3_block16" parent="." index="346" unique_id=642076619 instance=ExtResource("65_tiqg7")]
+position = Vector2(45398, -59)
+
+[node name="ballon2_block12" parent="." index="347" unique_id=773358726 instance=ExtResource("64_d8r48")]
+position = Vector2(45764, -114)
+
+[node name="ballon6_block14" parent="." index="348" unique_id=1594415733 instance=ExtResource("70_ldc6e")]
+position = Vector2(46258, -236)
+
+[node name="ballon6_block15" parent="." index="349" unique_id=581701690 instance=ExtResource("70_ldc6e")]
+position = Vector2(46632, -101)
+
+[node name="ballon2_block13" parent="." index="350" unique_id=1822580818 instance=ExtResource("64_d8r48")]
+position = Vector2(50643, -201)
+
+[node name="ballon3_block17" parent="." index="351" unique_id=13530351 instance=ExtResource("65_tiqg7")]
+position = Vector2(50964, -76)
+
+[node name="ballon5_block17" parent="." index="352" unique_id=1617273668 instance=ExtResource("67_3wjry")]
+position = Vector2(50802, 429)
+
+[node name="ballon6_block16" parent="." index="353" unique_id=951946986 instance=ExtResource("70_ldc6e")]
+position = Vector2(51341, 508)
+
+[node name="ballon2_block14" parent="." index="354" unique_id=1573939515 instance=ExtResource("64_d8r48")]
+position = Vector2(51432, -176)
+
+[node name="ballon4_block15" parent="." index="355" unique_id=2051498964 instance=ExtResource("66_umwtk")]
+position = Vector2(51805, -276)
+
+[node name="ballon3_block18" parent="." index="356" unique_id=1460884750 instance=ExtResource("65_tiqg7")]
+position = Vector2(52005, -59)
+
+[node name="ballon_block10" parent="." index="357" unique_id=1646210399 instance=ExtResource("69_v1v40")]
+position = Vector2(52590, -157)
+
+[node name="ballon_block11" parent="." index="358" unique_id=1248437747 instance=ExtResource("69_v1v40")]
+position = Vector2(52753, 434)
+
+[node name="ballon_block12" parent="." index="359" unique_id=164176308 instance=ExtResource("69_v1v40")]
+position = Vector2(53973, 47)
+
+[node name="ballon5_block18" parent="." index="360" unique_id=1891384180 instance=ExtResource("67_3wjry")]
+position = Vector2(54370, 471)
+
+[node name="ballon5_block19" parent="." index="361" unique_id=1378798226 instance=ExtResource("67_3wjry")]
+position = Vector2(54602, -21)
+
+[node name="ballon5_block20" parent="." index="362" unique_id=1335538834 instance=ExtResource("67_3wjry")]
+position = Vector2(54914, 437)
+
+[node name="ballon_block13" parent="." index="363" unique_id=1461634126 instance=ExtResource("69_v1v40")]
+position = Vector2(56533, -84)
+
+[node name="ballon2_block15" parent="." index="364" unique_id=715294985 instance=ExtResource("64_d8r48")]
+position = Vector2(55049, -121)
+
+[node name="ballon3_block19" parent="." index="365" unique_id=21793593 instance=ExtResource("65_tiqg7")]
+position = Vector2(55395, -20)
+
+[node name="ballon4_block16" parent="." index="366" unique_id=1466244123 instance=ExtResource("66_umwtk")]
+position = Vector2(55910, -246)
+
+[node name="ballon5_block21" parent="." index="367" unique_id=1455825104 instance=ExtResource("67_3wjry")]
+position = Vector2(56998, 404)
+
+[node name="ballon5_block22" parent="." index="368" unique_id=1857809754 instance=ExtResource("67_3wjry")]
+position = Vector2(57436, 520)
+
+[node name="ballon_block14" parent="." index="369" unique_id=2012835943 instance=ExtResource("69_v1v40")]
+position = Vector2(57024, -19)
+
+[node name="ballon2_block16" parent="." index="370" unique_id=641663334 instance=ExtResource("64_d8r48")]
+position = Vector2(57460, -54)
+
+[node name="ballon2_block17" parent="." index="371" unique_id=1164411721 instance=ExtResource("64_d8r48")]
+position = Vector2(62424, 44)
+
+[node name="ballon3_block20" parent="." index="372" unique_id=477558594 instance=ExtResource("65_tiqg7")]
+position = Vector2(62155, -83)
+
+[node name="ballon3_block21" parent="." index="373" unique_id=1391500487 instance=ExtResource("65_tiqg7")]
+position = Vector2(62649, 162)
+
+[node name="ballon5_block23" parent="." index="374" unique_id=1847856766 instance=ExtResource("67_3wjry")]
+position = Vector2(62865, 283)
+
+[node name="ballon6_block17" parent="." index="375" unique_id=1554544561 instance=ExtResource("70_ldc6e")]
+position = Vector2(63146, 373)
+
+[node name="ballon5_block24" parent="." index="376" unique_id=1691455100 instance=ExtResource("67_3wjry")]
+position = Vector2(60664, -142)
+
+[node name="ballon5_block25" parent="." index="377" unique_id=1822579177 instance=ExtResource("67_3wjry")]
+position = Vector2(61716, -154)
+
+[node name="ballon_block15" parent="." index="378" unique_id=1017282780 instance=ExtResource("69_v1v40")]
+position = Vector2(60719, 512)
+
+[node name="ballon3_block22" parent="." index="379" unique_id=48581537 instance=ExtResource("65_tiqg7")]
+position = Vector2(61315, 393)
+
+[editable path="finish_line"]

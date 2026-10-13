@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://m34qej0wkm62"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_y3csn"]
+[ext_resource type="Texture2D" uid="uid://bi3cpk0y2uewk" path="res://level3_assets/bus.png" id="2_3dwhf"]
+
+[node name="bus_block" unique_id=1822863251 instance=ExtResource("1_y3csn")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_3dwhf")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-102, -32, 138, -32, 139, -27, 144, -26, 144, 109, 122, 110, 119, 105, 107, 119, 85, 120, 75, 106, 71, 105, 69, 110, -85, 110, -87, 105, -89, 105, -102, 120, -121, 120, -127, 109, -132, 109, -132, 93, -136, 94, -138, 100, -149, 98, -148, 62, -145, 61, -146, 47, -139, 47, -139, 42, -129, 41, -130, 36, -123, 35, -123, 13, -119, 16, -118, -8, -112, -7, -112, -23, -107, -27)

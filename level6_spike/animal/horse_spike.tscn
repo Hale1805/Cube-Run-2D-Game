@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://nhsnaacfi4bj"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_u4o1u"]
+[ext_resource type="Texture2D" uid="uid://crqlocl1c2bib" path="res://level6_assets/animal3.png" id="2_b4c2x"]
+
+[node name="horse_spike" unique_id=1314194643 instance=ExtResource("1_u4o1u")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_b4c2x")
+region_enabled = true
+region_rect = Rect2(177.97653, 203.23245, 506.28885, 406.5604)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-242, -89, -226, -90, -224, -126, -205, -128, -206, -146, -187, -145, -187, -183, -148, -184, -148, -147, -130, -146, -131, -127, -92, -127, -93, -109, -74, -108, -74, -89, -36, -89, -36, -72, 1, -71, 0, -51, 209, -52, 209, -34, 227, -33, 228, -15, 246, -14, 247, 23, 227, 24, 227, 61, 208, 61, 209, 79, 228, 79, 228, 98, 209, 100, 209, 81, 189, 80, 190, 23, 170, 23, 171, 41, 152, 42, 152, 80, 171, 81, 172, 192, 153, 193, 151, 118, 133, 118, 133, 193, 113, 193, 113, 99, 94, 99, 94, 81, 76, 80, 76, 42, -17, 43, -17, 61, -35, 62, -35, 193, -54, 192, -55, 156, -72, 155, -73, 193, -93, 193, -92, 62, -112, 62, -112, 6, -130, 5, -130, -33, -148, -33, -149, -70, -205, -70, -206, -53, -242, -52)

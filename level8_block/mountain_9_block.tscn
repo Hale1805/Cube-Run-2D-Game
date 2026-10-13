@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://d3c4h3jfwdq0s"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_2e48f"]
+[ext_resource type="Texture2D" uid="uid://ded7ufvkk4tqk" path="res://level8_assets/mountain_tree.png" id="2_pnsb3"]
+
+[node name="mountain9_block" unique_id=1822863251 instance=ExtResource("1_2e48f")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_pnsb3")
+region_enabled = true
+region_rect = Rect2(111.99735, 111.37709, 70.37951, 86.08171)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-32, 40, -30, 19, -30, 9, -19, -1, -16, 3, -14, -1, -14, -16, -13, -36, -12, -37, 4, -33, 5, -10, 13, -3, 14, 15, 21, 27, 31, 40)

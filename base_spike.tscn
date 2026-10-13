@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dtdwqixluxb0b"]
+
+[ext_resource type="Script" uid="uid://41ag1x4b1fyq" path="res://Scripts/gai_nhon_origin.gd" id="1_laacu"]
+[ext_resource type="Shader" uid="uid://dngvbahumb4pp" path="res://furniture_spike_scene/laptop_spike.gdshader" id="2_f8im0"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_fycs8"]
+shader = ExtResource("2_f8im0")
+shader_parameter/line_color = Color(1, 0.1, 0.2, 0.7)
+shader_parameter/line_thickness = 1.0
+
+[node name="Area2D" type="Area2D" unique_id=1314194643]
+z_index = -100
+script = ExtResource("1_laacu")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1897023522]
+material = SubResource("ShaderMaterial_fycs8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=2014986722]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

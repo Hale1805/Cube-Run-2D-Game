@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b2me2wpoyu7hq"]
+
+[ext_resource type="PackedScene" uid="uid://1tithtmhdqig" path="res://furniture_block_scene/sofa_block.tscn" id="1_0lsm8"]
+[ext_resource type="Texture2D" uid="uid://dsflnicose1qi" path="res://Assets/bed.png" id="2_pv2qt"]
+
+[node name="bed_block" unique_id=429250493 instance=ExtResource("1_0lsm8")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+texture = ExtResource("2_pv2qt")
+flip_h = true
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=216324416]
+position = Vector2(0, -1)
+polygon = PackedVector2Array(16, 0, 3, 0, -5, 0, -9, 0, -20, 0, -20, 11, -16, 11, -16, 8, -9, 8, -9, 11, -5, 11, -5, 8, 16, 8, 16, 11, 20, 11, 20, 0)

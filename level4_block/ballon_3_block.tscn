@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://beroy6fpm8y0x"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_o2ngy"]
+[ext_resource type="Texture2D" uid="uid://bpa13i17mq4n8" path="res://level4_assets/block_img/ballon3.png" id="2_eifgb"]
+
+[node name="ballon3_block" unique_id=1822863251 instance=ExtResource("1_o2ngy")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_eifgb")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-20, -82, 25, -82, 25, -77, 35, -77, 35, -73, 40, -72, 40, -68, 45, -67, 45, -57, 50, -57, 50, -42, 56, -41, 55, -23, 51, -21, 50, -12, 46, -11, 45, -2, 41, -1, 40, 2, 35, 3, 35, 8, 31, 8, 30, 13, 25, 14, 26, 18, 16, 18, 15, 23, 21, 23, 20, 34, 25, 33, 25, 49, 31, 49, 30, 75, 26, 74, 25, 79, -21, 79, -20, 75, -26, 74, -25, 49, -20, 49, -20, 34, -15, 34, -15, 24, -10, 24, -10, 19, -20, 19, -20, 15, -24, 14, -25, 9, -30, 9, -30, 4, -35, 4, -35, -1, -41, -2, -40, -11, -45, -12, -45, -22, -50, -22, -50, -41, -45, -41, -45, -56, -40, -56, -40, -66, -34, -67, -35, -72, -30, -72, -30, -77, -20, -77)

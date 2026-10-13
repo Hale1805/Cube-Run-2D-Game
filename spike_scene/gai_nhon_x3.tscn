@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://ba6hcu514dbsl"]
+
+[ext_resource type="PackedScene" uid="uid://dh4mqapnb26n7" path="res://spike_scene/gai_nhon_origin.tscn" id="1_n8gdg"]
+[ext_resource type="Texture2D" uid="uid://j4ngtc8aqmo1" path="res://Assets/RegularSpike01.png" id="2_5pgbg"]
+
+[node name="Ba_gai_nhon" unique_id=1360124071 instance=ExtResource("1_n8gdg")]
+
+[node name="Sprite2D2" type="Sprite2D" parent="." index="1" unique_id=2010105669]
+position = Vector2(45, -0.69999695)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_5pgbg")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." index="2" unique_id=1732439992]
+position = Vector2(91, -0.69999695)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_5pgbg")
+
+[node name="CollisionPolygon2D" parent="." index="3" unique_id=785831806]
+position = Vector2(0, -1)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="4" unique_id=1045088690]
+position = Vector2(45, -0.69999695)
+polygon = PackedVector2Array(-30, 31, 30, 31, 0, -30)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." index="5" unique_id=195726805]
+position = Vector2(91, -0.69999695)
+polygon = PackedVector2Array(-30, 31, 30, 31, 0, -30)

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cnq37sp6qyeya"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_nwib2"]
+[ext_resource type="Texture2D" uid="uid://c1u676vntw6l4" path="res://level3_assets/ice_cart.png" id="2_lihlm"]
+
+[node name="ice_cart_bllock" unique_id=1822863251 instance=ExtResource("1_nwib2")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_lihlm")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-184, 34, 183, 34, 184, 44, 171, 43, 170, 210, 185, 212, 185, 220, 145, 220, 126, 263, 83, 280, 38, 238, 28, 221, -34, 220, -49, 264, -70, 276, -109, 278, -127, 266, -142, 238, -146, 221, -183, 221, -183, 206, -170, 208, -171, 46, -183, 46)

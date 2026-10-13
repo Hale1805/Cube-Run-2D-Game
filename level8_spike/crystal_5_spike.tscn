@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://qlo18csb5fcd"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_kmppv"]
+[ext_resource type="Texture2D" uid="uid://cjg7iot7ghmvt" path="res://level8_assets/crystal.png" id="2_xlh0i"]
+
+[node name="crystal_5_spike" unique_id=1314194643 instance=ExtResource("1_kmppv")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_xlh0i")
+region_enabled = true
+region_rect = Rect2(1198.8711, 826.2623, 59.425537, 50.383728)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-13, 22, -24, 9, -24, -8, -18, -7, -4, 1, -1, 1, 1, -6, 21, -17, 23, -16, 23, -11, 25, -10, 25, -3, 28, -3, 28, 7, 19, 22)

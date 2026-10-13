@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bmsr5y0ggjtyc"]
+
+[ext_resource type="PackedScene" uid="uid://c3ijw1f1snyk1" path="res://furniture_spike_scene/clock_spike.tscn" id="1_tcqn0"]
+[ext_resource type="Texture2D" uid="uid://1jw4r3f22kod" path="res://Assets/light.png" id="2_fyb5r"]
+
+[node name="light_spike" unique_id=1360124071 instance=ExtResource("1_tcqn0")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_fyb5r")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-46, 29, 45, 29, 45, 16, 23, -4, 23, -30, -23, -30, -23, -5, -47, 17)

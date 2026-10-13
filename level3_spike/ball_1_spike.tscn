@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dk8mf8sjljm73"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_ktb63"]
+[ext_resource type="Texture2D" uid="uid://clb5a3dh7wiak" path="res://level3_assets/ball1.png" id="2_f10ld"]
+
+[node name="ball1_spike" unique_id=1314194643 instance=ExtResource("1_ktb63")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_f10ld")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-14, -62, -4, -61, 8, -60, 20, -56, 29, -51, 38, -45, 46, -34, 53, -19, 51, 5, 47, 20, 35, 33, 12, 46, -16, 45, -38, 32, -43, 26, -50, 20, -54, 11, -55, -19, -48, -38, -30, -53, -30, -53, -20, -58)

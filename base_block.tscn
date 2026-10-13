@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ddogwlrslinpj"]
+
+[ext_resource type="Shader" uid="uid://cfyjxq37528re" path="res://furniture_block_scene/tu_do_block.gdshader" id="1_tis4q"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cwnlo"]
+shader = ExtResource("1_tis4q")
+shader_parameter/line_color = Color(1, 1, 1, 1)
+shader_parameter/line_thickness = 1.1
+
+[node name="StaticBody2D" type="StaticBody2D" unique_id=1822863251]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1669644865]
+material = SubResource("ShaderMaterial_cwnlo")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1327716539]

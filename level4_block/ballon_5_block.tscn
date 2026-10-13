@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bnt4gda5isrgy"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_agpom"]
+[ext_resource type="Texture2D" uid="uid://84uhpcq2nk3y" path="res://level4_assets/block_img/ballon5.png" id="2_fvb78"]
+
+[node name="ballon5_block" unique_id=1822863251 instance=ExtResource("1_agpom")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_fvb78")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-23, -119, 20, -119, 20, -116, 32, -116, 32, -113, 38, -113, 38, -110, 40, -110, 41, -107, 46, -107, 46, -104, 50, -104, 49, -101, 53, -101, 53, -95, 58, -79, 61, -79, 61, -57, 59, -55, 47, -22, 30, 4, 19, 21, 14, 28, 15, 72, 10, 72, 10, 78, 7, 78, 7, 81, -13, 81, -13, 67, -10, 67, -10, 52, -13, 52, -13, 49, -17, 49, -17, 24, -19, 24, -25, 16, -43, -15, -56, -40, -58, -49, -61, -54, -61, -80, -59, -81, -58, -92, -56, -92, -55, -98, -42, -110, -37, -110, -38, -113, -30, -113, -31, -115, -23, -115)

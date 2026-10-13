@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bxvmdcqm1wy6p"]
+
+[ext_resource type="PackedScene" uid="uid://dh4mqapnb26n7" path="res://spike_scene/gai_nhon_origin.tscn" id="1_srb55"]
+[ext_resource type="Script" uid="uid://11sofmuk4e5h" path="res://Scripts/bay_xoay.gd" id="2_oeb67"]
+[ext_resource type="Texture2D" uid="uid://cbynlb8asnnyh" path="res://Assets/ScytheSawblade01.png" id="3_efkjd"]
+
+[node name="scythe_sawblade" unique_id=1360124071 instance=ExtResource("1_srb55")]
+script = ExtResource("2_oeb67")
+spin_speed = 10.0
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("3_efkjd")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-8, 50, -23, 60, -8, 71, -8, 76, 0, 76, 7, 76, 14, 75, 21, 73, 27, 71, 31, 69, 37, 66, 42, 63, 47, 59, 51, 56, 55, 52, 59, 48, 63, 43, 66, 39, 69, 34, 71, 30, 73, 26, 63, 33, 59, 35, 53, 38, 48, 40, 40, 42, 32, 44, 26, 45, 20, 45, 15, 45, 8, 44, 8, 12, 10, 11, 14, 6, 15, -1, 12, -9, 8, -12, 8, -50, 23, -60, 8, -71, 8, -76, 3, -76, -1, -76, -4, -76, -11, -75, -18, -74, -25, -72, -32, -69, -39, -65, -43, -62, -48, -59, -52, -55, -58, -49, -64, -42, -68, -36, -73, -26, -70, -28, -67, -30, -64, -32, -59, -35, -55, -37, -51, -39, -47, -40, -44, -41, -41, -42, -38, -43, -33, -44, -26, -45, -18, -45, -8, -45, -8, -12, -12, -9, -15, -2, -13, 7, -11, 10, -8, 12)
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." index="2" unique_id=1560818847]
+rect = Rect2(-77, -83, 155, 165)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

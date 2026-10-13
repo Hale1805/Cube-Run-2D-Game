@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://btenvutegkmc4"]
+
+[ext_resource type="PackedScene" uid="uid://bxvmdcqm1wy6p" path="res://saw_blade_scene/scythe_sawbalde.tscn" id="1_c153d"]
+[ext_resource type="Texture2D" uid="uid://cgfli1hqvd2m0" path="res://Assets/RegularSawblade02.png" id="2_j860t"]
+
+[node name="regular_sawblade" unique_id=1360124071 instance=ExtResource("1_c153d")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_j860t")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-28, 29, -39, 46, -13, 38, -10, 39, -11, 60, 9, 38, 11, 39, 21, 57, 26, 30, 28, 28, 46, 39, 38, 12, 39, 10, 60, 11, 39, -8, 39, -11, 57, -21, 30, -26, 28, -29, 39, -46, 13, -38, 10, -39, 11, -60, -8, -39, -10, -38, -21, -57, -26, -30, -29, -28, -47, -39, -37, -13, -39, -10, -60, -11, -39, 8, -38, 11, -57, 21, -29, 26)
+
+[node name="VisibleOnScreenNotifier2D" parent="." index="2" unique_id=1560818847]
+rect = Rect2(-67, -65, 130, 129)

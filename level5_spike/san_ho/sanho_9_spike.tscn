@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c1yi0yelccxys"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_6lwgd"]
+[ext_resource type="Texture2D" uid="uid://b8t7jxl5bf10f" path="res://level5_assets/sanho_sinhvat.png" id="2_w4pm4"]
+
+[node name="sanho9_spike" unique_id=1314194643 instance=ExtResource("1_6lwgd")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_w4pm4")
+region_enabled = true
+region_rect = Rect2(358.3453, 135.68091, 109.18622, 111.20276)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-10, 49, -11, 46, -19, 46, -20, 42, -25, 44, -29, 36, -37, 33, -39, 30, -39, 8, -41, 6, -42, 2, -46, -3, -48, -8, -49, -30, -44, -32, -42, -34, -35, -35, -32, -30, -29, -27, -26, -38, -24, -39, -21, -42, -20, -42, -19, -45, -13, -45, -13, -42, -9, -38, -6, -34, -5, -23, -4, -23, -2, -26, 3, -26, 6, -20, 9, -19, 8, -26, 11, -29, 13, -29, 16, -32, 17, -36, 21, -35, 22, -33, 26, -29, 27, -29, 28, -39, 29, -42, 32, -43, 34, -47, 39, -47, 42, -47, 43, -44, 47, -42, 47, -42, 49, -40, 49, -8, 47, -8, 46, 19, 44, 21, 42, 29, 40, 32, 33, 36, 30, 41, 28, 44, 24, 44, 23, 46, 13, 47, 12, 50)

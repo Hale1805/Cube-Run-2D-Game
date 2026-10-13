@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://defrq1c7p0ago"]
+
+[ext_resource type="PackedScene" uid="uid://cj0awf41n7yap" path="res://level3_block/bench_2_block.tscn" id="1_w4gqo"]
+
+[node name="bench2_up_block" unique_id=1822863251 instance=ExtResource("1_w4gqo")]
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(35, 4, 34, 42, -15, 53, -32, 86, -40, 86, -40, 75, -29, 57, -67, 44, -83, 66, -93, 66, -92, 56, -79, 40, -92, 41, -93, 29, -71, 29, -40, 17, -22, 6, -5, -9, 10, -20, 30, -30, 62, -38)

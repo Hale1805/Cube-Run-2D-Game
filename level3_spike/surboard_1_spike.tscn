@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cnq3tqlflbtbf"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_w1yxy"]
+[ext_resource type="Texture2D" uid="uid://doya6padt4uer" path="res://level3_assets/Surfboards.png" id="2_j5js3"]
+
+[node name="surboard1_spike" unique_id=1314194643 instance=ExtResource("1_w1yxy")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+scale = Vector2(2, 2)
+texture = ExtResource("2_j5js3")
+region_enabled = true
+region_rect = Rect2(14.903879, 76.06755, 18.729162, 37.60695)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-15, -22, -9, -29, -5, -34, -4, -36, 4, -36, 10, -26, 13, -21, 14, -14, 15, -14, 15, 12, 13, 13, 14, 21, 11, 20, 11, 23, 8, 28, 5, 32, 0, 35, -4, 34, -7, 30, -11, 23, -14, 18, -15, 13, -17, 12, -17, -14, -14, -14)

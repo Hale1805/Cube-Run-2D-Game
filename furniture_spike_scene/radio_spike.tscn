@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bhckf3fp46ydx"]
+
+[ext_resource type="PackedScene" uid="uid://bgls7kfx14tgc" path="res://furniture_spike_scene/laptop_spike.tscn" id="1_ldpmu"]
+[ext_resource type="Texture2D" uid="uid://be7g838kcmwqp" path="res://Assets/Pixel Furnitures.png" id="2_w0t67"]
+
+[node name="radio_spike" unique_id=1360124071 instance=ExtResource("1_ldpmu")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+scale = Vector2(3, 3)
+texture = ExtResource("2_w0t67")
+region_enabled = true
+region_rect = Rect2(126.72757, 282.8797, 31.223495, 23.336884)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+position = Vector2(-2, 14)
+polygon = PackedVector2Array(-41, 15, 46, 14, 45, -42, -41, -42)

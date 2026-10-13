@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bfjasj8ufjns"]
+
+[ext_resource type="PackedScene" uid="uid://c2ucymbvqebwk" path="res://furniture_spike_scene/tranh_9.tscn" id="1_exvp8"]
+[ext_resource type="Texture2D" uid="uid://bxbsa2k4v1l7y" path="res://Assets/tranh_10.png" id="2_1u0nb"]
+
+[node name="tranh_10" unique_id=1360124071 instance=ExtResource("1_exvp8")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_1u0nb")

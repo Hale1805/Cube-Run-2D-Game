@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://cjsnwog863osm"]
+
+[ext_resource type="Script" uid="uid://dg2xuy7t3uudg" path="res://Scripts/splash_screen.gd" id="1_el3v4"]
+[ext_resource type="Texture2D" uid="uid://bwml73pesmf55" path="res://Assets/Painterly Sky BGs (181).png" id="2_74eti"]
+[ext_resource type="Texture2D" uid="uid://kn2nx8xupjoq" path="res://Assets/Cube065.png" id="2_arguk"]
+[ext_resource type="FontFile" uid="uid://jembarertuuy" path="res://font/PressStart2P-Regular.ttf" id="3_arguk"]
+
+[sub_resource type="FontVariation" id="FontVariation_arguk"]
+base_font = ExtResource("3_arguk")
+spacing_glyph = 3
+spacing_space = -20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_arguk"]
+bg_color = Color(0.6077977, 0.6032848, 0.55888736, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_74eti"]
+bg_color = Color(0.18431373, 0.67058825, 0.7411765, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="SplashScreen" type="Control" unique_id=870064713]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_el3v4")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=1132269310]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_74eti")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1422734058]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -189.0
+offset_right = 60.0
+offset_bottom = -69.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_arguk")
+
+[node name="Label" type="Label" parent="." unique_id=1657251981]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -480.0
+offset_top = -49.0
+offset_right = 480.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.107414775, 0.68007845, 0.54229593, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 7
+theme_override_constants/shadow_offset_y = 5
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = SubResource("FontVariation_arguk")
+theme_override_font_sizes/font_size = 55
+text = "CUBE RUNNING"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=351746224]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -154.0
+offset_top = 88.0
+offset_right = 154.0
+offset_bottom = 124.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_arguk")
+theme_override_styles/fill = SubResource("StyleBoxFlat_74eti")

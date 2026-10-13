@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://btxwp4vicjg15"]
+
+[ext_resource type="PackedScene" uid="uid://cvr4xbgth22tb" path="res://pit_scene/jagged_1_pit.tscn" id="1_w4mk4"]
+[ext_resource type="Texture2D" uid="uid://du23onoaot21k" path="res://Assets/JaggedPit02.png" id="2_dnas4"]
+[ext_resource type="Shader" uid="uid://dxl556vi7l0tq" path="res://pit_scene/jagged_2_pit.gdshader" id="2_nxrr7"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rn8q4"]
+shader = ExtResource("2_nxrr7")
+shader_parameter/line_color = Color(1, 1, 1, 1)
+shader_parameter/line_thickness = 1.1
+
+[node name="jagged2_pit" unique_id=429250493 instance=ExtResource("1_w4mk4")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+material = SubResource("ShaderMaterial_rn8q4")
+texture = ExtResource("2_dnas4")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=216324416]
+polygon = PackedVector2Array(-61, -21, -61, 21, 60, 20, 6, -18, -30, -1)

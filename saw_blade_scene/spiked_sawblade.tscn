@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c1jsa5mn32fh4"]
+
+[ext_resource type="PackedScene" uid="uid://bmicdpc030qf5" path="res://saw_blade_scene/outline_sawblade.tscn" id="1_v6pmg"]
+[ext_resource type="Texture2D" uid="uid://o20t6y1wuioa" path="res://Assets/SpikedBulbSawblade01.png" id="2_yh7f5"]
+
+[node name="spiked_sawblade" unique_id=1360124071 instance=ExtResource("1_v6pmg")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_yh7f5")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-20, 42, -26, 36, -19, 29, -7, 34, -7, 44, -16, 44, 0, 85, 15, 44, 7, 43, 7, 34, 20, 29, 26, 36, 21, 42, 60, 60, 42, 20, 35, 26, 29, 19, 34, 7, 44, 6, 44, 15, 84, 0, 43, -15, 43, -7, 34, -7, 29, -20, 36, -26, 42, -20, 60, -60, 20, -42, 26, -36, 19, -29, 7, -34, 7, -44, 15, -44, 0, -84, -15, -44, -7, -43, -7, -35, -19, -29, -26, -36, -20, -42, -60, -60, -42, -20, -36, -26, -29, -19, -34, -7, -44, -7, -44, -15, -85, 0, -43, 15, -44, 7, -34, 6, -29, 19, -36, 26, -42, 21, -60, 60)
+
+[node name="VisibleOnScreenNotifier2D" parent="." index="2" unique_id=1007589047]
+rect = Rect2(-86, -86, 172, 173)

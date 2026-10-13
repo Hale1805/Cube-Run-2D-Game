@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://djkermh154472"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_ivc7r"]
+[ext_resource type="Texture2D" uid="uid://dgsgsx5pv01h1" path="res://level3_assets/seagull2.png" id="2_vn00h"]
+
+[node name="seagull2_spike" unique_id=1314194643 instance=ExtResource("1_ivc7r")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_vn00h")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-256, 77, -154, 77, -156, 67, -126, 67, -124, 43, -97, 24, -56, 23, -62, 13, -36, 11, -39, 1, -16, -3, -11, -11, 36, -11, 36, -60, 47, -60, 48, -220, 87, -252, 130, -251, 149, -216, 175, -217, 173, -212, 229, -210, 229, -198, 253, -180, 255, -175, 175, -170, 176, -156, 148, -145, 148, -26, 158, -26, 158, 75, 143, 80, 145, 111, 69, 172, 55, 173, 52, 229, 82, 230, 75, 242, 89, 242, 89, 256, -2, 258, -2, 183, -83, 155, -141, 136, -193, 122, -239, 101)

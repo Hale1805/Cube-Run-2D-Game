@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://by8b1d2b7j8pm"]
+
+[ext_resource type="PackedScene" uid="uid://cwess2ytc7cq8" path="res://level2_spike/extinguisher_spike.tscn" id="1_wcc2a"]
+[ext_resource type="Texture2D" uid="uid://ewk5byjjm0d2" path="res://level2_assets/others/rao_6.png" id="2_ukdll"]
+
+[node name="rao_spike" unique_id=1360124071 instance=ExtResource("1_wcc2a")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_ukdll")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-28, 11, 26, 11, 29, 8, 29, 4, 28, -1, 17, -11, 4, -11, 4, -10, -8, -10, -8, -9, -14, -8, -24, -4, -27, 2, -28, 4, -29, 4, -29, 8, -28, 8)

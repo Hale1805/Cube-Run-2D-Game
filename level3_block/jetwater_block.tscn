@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://siqxuv3qq46g"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_17n31"]
+[ext_resource type="Texture2D" uid="uid://b7lp44pjmlyht" path="res://level3_assets/jetwater.png" id="2_bgubp"]
+
+[node name="jetwater_block" unique_id=1822863251 instance=ExtResource("1_17n31")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_bgubp")
+region_enabled = true
+region_rect = Rect2(118.89963, 236.79758, 565.6111, 307.92606)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+position = Vector2(-29, -17)
+polygon = PackedVector2Array(-232, 9, -147, 9, -145, 27, -112, 42, 49, 44, 49, -44, 57, -44, 57, -77, 75, -93, 112, -91, 132, -62, 159, -34, 194, -16, 229, -9, 257, 13, 266, 40, 284, 42, 284, 97, 153, 165, -147, 165, -205, 115, -232, 99)

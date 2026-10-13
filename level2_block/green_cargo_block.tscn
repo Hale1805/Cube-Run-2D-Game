@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cvc1uqrvxccm"]
+
+[ext_resource type="PackedScene" uid="uid://bwa8j7e6ebay2" path="res://level2_block/blue_cargo_block.tscn" id="1_556fn"]
+[ext_resource type="Texture2D" uid="uid://bjfdiiqtp3q7o" path="res://level2_assets/cargo/green_cargo1.png" id="2_yf7n6"]
+
+[node name="green_cargo_block" unique_id=429250493 instance=ExtResource("1_556fn")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+texture = ExtResource("2_yf7n6")

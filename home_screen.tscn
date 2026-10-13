@@ -1,0 +1,117 @@
+[gd_scene format=3 uid="uid://dgnjj0sbghi4x"]
+
+[ext_resource type="Script" uid="uid://ccw6nnbtagkgx" path="res://Scripts/home_screen.gd" id="1_ktig4"]
+[ext_resource type="Texture2D" uid="uid://c0fb0wuntv8g" path="res://Assets/1.png" id="2_ckqhc"]
+[ext_resource type="Texture2D" uid="uid://c8j8ut3uqji5n" path="res://Assets/2.png" id="3_2352u"]
+[ext_resource type="Texture2D" uid="uid://bo2q11bw8631q" path="res://Assets/play-button.png" id="3_fm0op"]
+[ext_resource type="FontFile" uid="uid://jembarertuuy" path="res://font/PressStart2P-Regular.ttf" id="3_outur"]
+[ext_resource type="Texture2D" uid="uid://dqhhk7i8i8ptb" path="res://Assets/3.png" id="4_1fxkl"]
+[ext_resource type="Texture2D" uid="uid://di3m5skd2eum1" path="res://Assets/play-button (1).png" id="4_xe7vm"]
+[ext_resource type="Texture2D" uid="uid://c5arsp7085cra" path="res://Assets/4.png" id="5_jh6v6"]
+[ext_resource type="Texture2D" uid="uid://dk62ioajhkw2t" path="res://Assets/5.png" id="6_s47f5"]
+[ext_resource type="AudioStream" uid="uid://cf3fy766nv7tr" path="res://Assets/HomeScreen_Music.ogg" id="10_2352u"]
+
+[sub_resource type="FontVariation" id="FontVariation_outur"]
+base_font = ExtResource("3_outur")
+spacing_glyph = 3
+spacing_space = -20
+
+[node name="HomeScreen" type="Control" unique_id=1586969816]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ktig4")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1316114765]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 225.0
+color = Color(0.9882353, 0.96862745, 0.93333334, 1)
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=25858994]
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-10, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D" unique_id=1513495230]
+position = Vector2(0, 216)
+scale = Vector2(2.4, 2.4)
+texture = ExtResource("2_ckqhc")
+centered = false
+
+[node name="Parallax2D2" type="Parallax2D" parent="." unique_id=1013851153]
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-50, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D2" unique_id=15209700]
+position = Vector2(0, 216)
+scale = Vector2(2.4, 2.4)
+texture = ExtResource("3_2352u")
+centered = false
+
+[node name="Parallax2D3" type="Parallax2D" parent="." unique_id=667143123]
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-80, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D3" unique_id=888540267]
+position = Vector2(0, 216)
+scale = Vector2(2.4, 2.4)
+texture = ExtResource("4_1fxkl")
+centered = false
+
+[node name="Parallax2D4" type="Parallax2D" parent="." unique_id=1566243362]
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-150, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D4" unique_id=2011625643]
+position = Vector2(0, 216)
+scale = Vector2(2.4, 2.4)
+texture = ExtResource("5_jh6v6")
+centered = false
+
+[node name="Parallax2D5" type="Parallax2D" parent="." unique_id=1786131305]
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-250, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D5" unique_id=711447326]
+position = Vector2(0, 216)
+scale = Vector2(2.4, 2.4)
+texture = ExtResource("6_s47f5")
+centered = false
+
+[node name="PlayButton" type="TextureButton" parent="." unique_id=828664535]
+layout_mode = 0
+offset_left = 474.0
+offset_top = 241.0
+offset_right = 986.0
+offset_bottom = 753.0
+scale = Vector2(0.4, 0.4)
+texture_normal = ExtResource("3_fm0op")
+texture_pressed = ExtResource("4_xe7vm")
+texture_hover = ExtResource("4_xe7vm")
+
+[node name="Label" type="Label" parent="." unique_id=702429377]
+layout_mode = 0
+offset_left = 151.0
+offset_top = 69.0
+offset_right = 1001.0
+offset_bottom = 165.0
+theme_override_colors/font_color = Color(0.105882354, 0.6784314, 0.5411765, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 7
+theme_override_constants/shadow_offset_y = 5
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = SubResource("FontVariation_outur")
+theme_override_font_sizes/font_size = 70
+text = "CUBE RUNNING"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1215280098]
+stream = ExtResource("10_2352u")
+volume_db = -7.0
+autoplay = true
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]

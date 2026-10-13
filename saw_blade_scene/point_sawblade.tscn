@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cykniday8jalq"]
+
+[ext_resource type="PackedScene" uid="uid://dh4mqapnb26n7" path="res://spike_scene/gai_nhon_origin.tscn" id="1_kltki"]
+[ext_resource type="Texture2D" uid="uid://2kia30vufcsm" path="res://Assets/PointedSawblade02.png" id="2_6xepl"]
+[ext_resource type="Script" uid="uid://11sofmuk4e5h" path="res://Scripts/bay_xoay.gd" id="2_184da"]
+
+[node name="point_sawblade" unique_id=1360124071 instance=ExtResource("1_kltki")]
+script = ExtResource("2_184da")
+spin_speed = 4.0
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+position = Vector2(0.1000061, -17.699997)
+texture = ExtResource("2_6xepl")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+position = Vector2(0.1000061, -18.699997)
+polygon = PackedVector2Array(-28, 18, -31, 27, -59, 52, -23, 41, -12, 42, -9, 32, 0, 33, 8, 31, 13, 43, 24, 41, 58, 52, 32, 27, 27, 17, 16, 19, 13, 10, 8, 5, 14, -5, 8, -14, 0, -49, -8, -14, -14, -5, -7, 6, -13, 10, -15, 18)
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." index="2" unique_id=779030036]
+rect = Rect2(-65, -73, 129, 113)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

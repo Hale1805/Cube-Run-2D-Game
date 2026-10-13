@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://hcg81kx7okf8"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_s6vc2"]
+[ext_resource type="Texture2D" uid="uid://c4yh4frxkp4en" path="res://level6_assets/firecamp.png" id="2_eh50p"]
+
+[node name="firecamp_spike" unique_id=1314194643 instance=ExtResource("1_s6vc2")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("2_eh50p")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-49, 15, -25, 15, -25, 14, -23, 14, -23, 13, -18, 13, -18, 12, -19, 11, -21, 7, -21, -2, -19, -5, -17, -2, -16, -6, -17, -12, -16, -12, -16, -16, -14, -16, -15, -18, -14, -18, -14, -19, -13, -19, -9, -26, -5, -19, -5, -28, -6, -31, -6, -42, -5, -42, 1, -51, 4, -52, 5, -52, 3, -43, 8, -34, 13, -29, 13, -26, 17, -25, 18, -22, 20, -17, 19, -11, 19, -8, 23, -10, 23, -2, 25, 5, 24, 10, 22, 12, 22, 15, 42, 19, 53, 21, 54, 22, 55, 36, 53, 37, 34, 46, 12, 44, -48, 35, -54, 28, -53, 19)

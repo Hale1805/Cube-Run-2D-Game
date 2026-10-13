@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://begg1w1o110bo"]
+
+[ext_resource type="Script" uid="uid://41ag1x4b1fyq" path="res://Scripts/gai_nhon_origin.gd" id="1_nym6l"]
+[ext_resource type="Texture2D" uid="uid://c6opt38x2mv5d" path="res://level8_assets/beam_tim2_sequence/frame_0_delay-0.06s.png" id="2_rwsbl"]
+[ext_resource type="Texture2D" uid="uid://cy7lmr567eaii" path="res://level8_assets/beam_tim2_sequence/frame_1_delay-0.06s.png" id="3_jnad1"]
+[ext_resource type="Texture2D" uid="uid://jlexuklka063" path="res://level8_assets/beam_tim2_sequence/frame_2_delay-0.06s.png" id="4_0xtr3"]
+[ext_resource type="Texture2D" uid="uid://cdv1iffrfyvhe" path="res://level8_assets/beam_tim2_sequence/frame_3_delay-0.06s.png" id="5_jb3ub"]
+[ext_resource type="Texture2D" uid="uid://dlf2qa6qipyqw" path="res://level8_assets/beam_tim2_sequence/frame_4_delay-0.06s.png" id="6_3mi84"]
+[ext_resource type="Texture2D" uid="uid://bxhbj2wkaxls2" path="res://level8_assets/beam_tim2_sequence/frame_5_delay-0.06s.png" id="7_s2uo0"]
+[ext_resource type="Texture2D" uid="uid://cqwf0qb6ljyx0" path="res://level8_assets/beam_tim2_sequence/frame_6_delay-0.06s.png" id="8_8dl0l"]
+[ext_resource type="Texture2D" uid="uid://c32abmg0yjgeg" path="res://level8_assets/beam_tim2_sequence/frame_7_delay-0.06s.png" id="9_dtdes"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4prbw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_rwsbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jnad1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0xtr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jb3ub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3mi84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_s2uo0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8dl0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_dtdes")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="beam2" type="Area2D" unique_id=616355116]
+scale = Vector2(-0.2, 0.1)
+script = ExtResource("1_nym6l")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1150640543]
+sprite_frames = SubResource("SpriteFrames_4prbw")
+autoplay = "default"
+frame_progress = 0.8296035
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1442557915]
+polygon = PackedVector2Array(-159.99998, -89.99999, 239.99997, -89.99999, 259.99997, -69.99999, 279, -54, 277, 35, 249.99997, 59.999992, 224.99998, 79.99999, -134.99998, 79.99999, -201, 56, -212, 31, -212, -67, -190, -89)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

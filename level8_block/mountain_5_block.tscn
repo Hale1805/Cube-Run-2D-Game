@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://ba6hmx3p5u1pw"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_t6hx2"]
+[ext_resource type="Texture2D" uid="uid://ctefmepktd8k5" path="res://level8_assets/mountain_magna.png" id="2_nn6gd"]
+
+[node name="mountain5_block" unique_id=1822863251 instance=ExtResource("1_t6hx2")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_nn6gd")
+region_enabled = true
+region_rect = Rect2(622.25555, 400.75668, 68.07471, 45.264343)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-31, 19, -27, 11, -27, 8, -29, 6, -29, 4, -21, 2, -12, -2, -2, -7, 7, -11, 13, -12, 18, -13, 21, -2, 31, 9, 31, 19)

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://csawawarcknf0"]
+
+[ext_resource type="PackedScene" uid="uid://bmoe2bdsdi1pn" path="res://pad_and_ring/yellow_ring.tscn" id="1_rj8c3"]
+[ext_resource type="Texture2D" uid="uid://dnqvgb05j4dy4" path="res://level2_assets/RedJumpRing.png" id="2_4hbta"]
+
+[sub_resource type="Gradient" id="Gradient_n8t7b"]
+offsets = PackedFloat32Array(0, 0.004716981, 0.995283, 1)
+colors = PackedColorArray(0, 0.85882354, 0.85882354, 1, 0.93474555, 0.25776663, 0.27431127, 1, 0.93333334, 0.93333334, 0.93333334, 0, 1, 1, 1, 1)
+
+[node name="RedRing" unique_id=519226501 instance=ExtResource("1_rj8c3")]
+type = 0
+
+[node name="Sprite2D" parent="." index="0" unique_id=623588795]
+texture = ExtResource("2_4hbta")
+
+[node name="CPUParticles2D" parent="." index="2" unique_id=405553168]
+color_ramp = SubResource("Gradient_n8t7b")

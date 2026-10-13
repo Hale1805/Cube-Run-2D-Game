@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bh4j2jixphdtq"]
+
+[ext_resource type="PackedScene" uid="uid://bhckf3fp46ydx" path="res://furniture_spike_scene/radio_spike.tscn" id="1_vrcpv"]
+
+[node name="pc_case_spike" unique_id=1360124071 instance=ExtResource("1_vrcpv")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+region_rect = Rect2(462.8213, 282.67242, 16.220032, 22.185638)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-18, 17, 23, 17, 23, -43, -18, -43)

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://2a3s7tsn8wjp"]
+
+[ext_resource type="PackedScene" uid="uid://bv0codlnqpvc" path="res://StoryScene/story_lv_8_front.tscn" id="1_khxjn"]
+[ext_resource type="Texture2D" uid="uid://b15fpe18y138y" path="res://Assets/lv_8_story_image.jpg" id="2_piic7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7yi8q"]
+content_margin_left = 20.0
+content_margin_top = 20.0
+content_margin_right = 20.0
+content_margin_bottom = 20.0
+bg_color = Color(0.08235294, 0.08235294, 0.08235294, 0.4745098)
+
+[node name="story_lv8_after" unique_id=1845331984 instance=ExtResource("1_khxjn")]
+dialogues = Array[String](["Tiếng gầm rú cuối cùng của con quái vật chìm nghỉm vào dòng dung nham rực đỏ. Mọi thứ bỗng yên ắng đến lạ thường.", "Rồi một luồng ánh sáng trắng bùng lên, nuốt chửng lấy mọi thứ xung quanh. Anh nhắm nghiền mắt lại, chờ đợi một cơn đau tột cùng…", "Nhưng cơn đau ấy không bao giờ đến, thay vào đó là một cảm giác ấm áp, mềm mại từ từ lan tỏa khắp da thịt. Sự khô cứng, nặng nề và góc cạnh dần biến mất. Phải chăng đây chính là khoảnh khắc anh đã chờ đợi suốt bấy lâu nay?", "Anh từ từ hé mắt, và khi những khung cảnh cao và xa phía ngoài kia lọt vào nhãn cầu của anh, anh cảm thấy như nghẹn lại. Tầm nhìn của anh dần nhòe đi, nhưng không phải là do mắt anh kém, mà là do những giọt nước mắt bắt đầu tuôn rơi.", "Anh đã trở về với hình dạng con người. ", "Hai chân đứng thẳng, hai tay đưa lên dụi nước mắt. Chúng ở đấy như chưa hề bị mất đi, lành lặn không một vết xước.", "Đó là lần đầu tiên anh thấy có những thứ tưởng như là bình thường nhưng lại quý giá đến như vậy.", "Tim vẫn còn đập nhanh sau một hồi hành động căng thẳng, nhưng giờ đây mọi áp lực, sợ hãi và sự tuyệt vọng từng bám víu lấy tâm trí anh nay bỗng chốc tan biến thành bọt nước.", "Rồi anh bất giác mỉm cười: “Cuối cùng cũng kết thúc thật rồi. Kẻ yếu ớt như mình…đã chiến thắng!”", "Anh tiếp tục đứng đó một hồi lâu, những cơn gió mang theo hơi nóng vẫn còn phả vào người. Nhưng sự ngột ngạt trước đó đã không còn nữa.", "Nghĩ lại những chướng ngại nguy hiểm đã qua, có lẽ ngoài việc chúng là một sự trừng phạt. Thì chúng cũng đã tôi rèn anh thành một con người khác, một con người dũng cảm và chín chắn hơn so với quá khứ.", "Anh quay người, nhìn về phía nơi mình vừa chiến đấu lần cuối.", "“Về nhà thôi!”"])
+next_scene_path = "uid://bgqcny00rpgdm"
+
+[node name="TextureRect" parent="." index="2" unique_id=243096706]
+texture = ExtResource("2_piic7")
+
+[node name="TextLabel" parent="." index="3" unique_id=1957023836]
+theme_override_styles/normal = SubResource("StyleBoxFlat_7yi8q")

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bkyvtbf0mgmcy"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_2mi5r"]
+[ext_resource type="Texture2D" uid="uid://bqpe5ht54xlk6" path="res://level8_assets/stone_pillar.png" id="2_ot6ga"]
+
+[node name="pillar_block" unique_id=1822863251 instance=ExtResource("1_2mi5r")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_ot6ga")
+region_enabled = true
+region_rect = Rect2(16.201569, 98.86957, 180.49533, 450.4085)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-78, 217, -70, 200, -87, 192, -80, 165, -66, 141, -63, -96, -71, -109, -70, -135, -64, -141, -68, -161, -63, -164, -62, -198, -47, -205, -34, -214, 34, -215, 55, -205, 59, -195, 59, -163, 63, -160, 64, -145, 67, -138, 66, -109, 60, -96, 59, 141, 75, 157, 81, 175, 83, 196, 65, 200, 80, 214, 77, 219)

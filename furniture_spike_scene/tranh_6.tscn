@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dalq48embr1re"]
+
+[ext_resource type="PackedScene" uid="uid://befk3vh54baba" path="res://furniture_spike_scene/tranh_3.tscn" id="1_ktm64"]
+[ext_resource type="Texture2D" uid="uid://cofupe8hc2uhc" path="res://Assets/tranh_6.png" id="2_04bs5"]
+
+[node name="tranh_6" unique_id=1360124071 instance=ExtResource("1_ktm64")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_04bs5")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-32, 31, 31, 31, 31, -32, -32, -32)

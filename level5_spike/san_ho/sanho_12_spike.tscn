@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://o80303i0jawg"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_wyqph"]
+[ext_resource type="Texture2D" uid="uid://dba77m6q4qe6v" path="res://level5_assets/san_ho.png" id="2_ll0pr"]
+
+[node name="sanho12_spike" unique_id=1314194643 instance=ExtResource("1_wyqph")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_ll0pr")
+region_enabled = true
+region_rect = Rect2(74.84955, 162.19919, 286.85062, 311.79654)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-96, 143, -98, 117, -111, 118, -110, 100, -121, 104, -121, 80, -110, 81, -96, 67, -96, 44, -112, 40, -109, 26, -123, 29, -121, 5, -108, 5, -110, -8, -93, -8, -96, -32, -115, -38, -107, -61, -97, -60, -94, -67, -87, -74, -79, -84, -70, -91, -67, -99, -61, -98, -20, -98, -19, -110, -7, -111, -5, -123, 14, -123, 18, -136, 31, -135, 33, -126, 20, -123, 16, 1, 56, -9, 61, -36, 70, -37, 70, -60, 81, -59, 82, -72, 93, -72, 95, -83, 109, -86, 109, -99, 121, -96, 121, -84, 109, -82, 105, -60, 99, -58, 97, -9, 109, -2, 115, 8, 120, 29, 93, 42, 96, 55, 102, 72, 122, 82, 121, 105, 114, 110, 99, 127, 93, 144)

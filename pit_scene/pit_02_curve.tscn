@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://d0gfasfsiv3wj"]
+
+[ext_resource type="PackedScene" uid="uid://ec2tq34a4c57" path="res://pit_scene/pit_curve.tscn" id="1_g4c2a"]
+[ext_resource type="Texture2D" uid="uid://6shho7tf1wvu" path="res://Assets/CurvedPit02.png" id="2_rfoji"]
+
+[node name="Pit02_curve" unique_id=957112752 instance=ExtResource("1_g4c2a")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=163112584]
+texture = ExtResource("2_rfoji")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=837102251]
+polygon = PackedVector2Array(-50, -35, -49, -33, -48, -31, -47, -28, -45, -24, -43, -21, -41, -18, -38, -14, -36, -11, -33, -8, -32, -7, -31, -6, -30, -5, -29, -4, -26, -2, -23, 0, -20, 2, -18, 3, -13, 6, -5, 9, 3, 11, 8, 12, 15, 13, 22, 16, 28, 19, 33, 22, 37, 25, 40, 27, 45, 31, 50, 36, -51, 37)

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bljo7pq7qso8l"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_753pa"]
+[ext_resource type="Texture2D" uid="uid://l4ojnwjdasso" path="res://level4_assets/block_img/haidang3.png" id="2_5oh7s"]
+
+[node name="haidang3_block" unique_id=1822863251 instance=ExtResource("1_753pa")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_5oh7s")
+region_enabled = true
+region_rect = Rect2(49.794006, 45.06788, 699.839, 720.589)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-71, 55, -11, 54, -11, 36, -7, 36, -8, -6, -4, -6, -4, -49, -1, -50, 0, -60, -3, -60, -3, -67, -8, -67, -7, -71, -11, -71, -11, -82, 7, -82, 7, -132, 11, -132, 11, -137, 13, -137, 15, -141, 18, -141, 25, -143, 26, -147, 31, -147, 32, -150, 36, -150, 36, -154, 43, -154, 44, -151, 47, -150, 47, -147, 55, -146, 55, -144, 61, -143, 61, -140, 65, -140, 65, -136, 69, -136, 69, -133, 72, -132, 72, -83, 90, -82, 90, -71, 86, -72, 87, -67, 84, -67, 83, -61, 80, -60, 79, -51, 83, -49, 83, -7, 87, -6, 87, 36, 91, 38, 91, 79, 94, 79, 94, 122, 98, 123, 97, 149, -90, 149, -90, 109, -98, 109, -97, 101, -94, 101, -93, 94, -90, 94, -90, 87, -87, 87, -86, 80, -83, 80, -83, 73, -79, 73, -79, 66, -76, 66, -76, 59, -72, 59, -72, 55)

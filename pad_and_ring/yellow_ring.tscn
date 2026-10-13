@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bmoe2bdsdi1pn"]
+
+[ext_resource type="PackedScene" uid="uid://b3238qyeexhhv" path="res://pad_and_ring/cyan_gravity_ring.tscn" id="1_tnuqp"]
+[ext_resource type="Texture2D" uid="uid://cmr0blyfcuj36" path="res://level2_assets/YellowJumpRing.png" id="2_jqmfa"]
+
+[sub_resource type="Gradient" id="Gradient_tnuqp"]
+offsets = PackedFloat32Array(0, 0.004716981, 0.995283, 1)
+colors = PackedColorArray(0, 0.85882354, 0.85882354, 1, 0.8943199, 0.7333154, 0.24444655, 1, 0.93333334, 0.93333334, 0.93333334, 0, 1, 1, 1, 1)
+
+[node name="YellowRing" unique_id=519226501 instance=ExtResource("1_tnuqp")]
+jump_force = 1300.0
+type = 0
+
+[node name="Sprite2D" parent="." index="0" unique_id=623588795]
+texture = ExtResource("2_jqmfa")
+
+[node name="CPUParticles2D" parent="." index="2" unique_id=405553168]
+color_ramp = SubResource("Gradient_tnuqp")

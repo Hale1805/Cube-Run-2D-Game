@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://drgxuwr2ihwpf"]
+
+[ext_resource type="PackedScene" uid="uid://dh4mqapnb26n7" path="res://spike_scene/gai_nhon_origin.tscn" id="1_l3xmk"]
+[ext_resource type="Texture2D" uid="uid://j4ngtc8aqmo1" path="res://Assets/RegularSpike01.png" id="2_ce5sl"]
+
+[node name="Hai_gai_nhon" unique_id=1360124071 instance=ExtResource("1_l3xmk")]
+
+[node name="Sprite2D2" type="Sprite2D" parent="." index="1" unique_id=656617569]
+position = Vector2(44, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_ce5sl")
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3" unique_id=1894753254]
+position = Vector2(44, 0)
+polygon = PackedVector2Array(-30, 31, 30, 31, 0, -30)

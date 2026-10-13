@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bnlmqokdh0sjo"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_t2ed6"]
+[ext_resource type="Texture2D" uid="uid://dc8hm1c4q58dj" path="res://level6_assets/pinecone2.png" id="2_rnd38"]
+
+[node name="pinecone2_spike" unique_id=1314194643 instance=ExtResource("1_t2ed6")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_rnd38")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-28, 9, -28, -12, -25, -12, -25, -16, -21, -16, -21, -20, -18, -19, -18, -23, -14, -23, -14, -26, -7, -26, -7, -29, 0, -30, 0, -33, 4, -34, 4, -37, 7, -37, 7, -34, 5, -34, 3, -32, 4, -30, 7, -30, 7, -26, 14, -26, 14, -24, 18, -23, 18, -20, 21, -19, 21, -16, 25, -16, 25, -12, 28, -12, 28, 9, 25, 9, 25, 12, 21, 12, 21, 19, 17, 19, 17, 23, 14, 23, 14, 26, 11, 26, 10, 30, 7, 30, 7, 33, 4, 33, 3, 37, -3, 37, -3, 34, -7, 34, -7, 30, -10, 30, -11, 27, -14, 27, -14, 23, -18, 23, -17, 20, -21, 19, -21, 13, -25, 12, -25, 9)

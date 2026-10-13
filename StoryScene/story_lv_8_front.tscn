@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://bv0codlnqpvc"]
+
+[ext_resource type="PackedScene" uid="uid://cb6edu5frh8di" path="res://story_screen.tscn" id="1_dushc"]
+[ext_resource type="Texture2D" uid="uid://df8mway8on7yj" path="res://level8_assets/boss/attack/Eye Beast Attack2.png" id="2_x88or"]
+[ext_resource type="Texture2D" uid="uid://qar0vghff5fw" path="res://Assets/bg_level_8.png" id="3_pxyrp"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t178c"]
+content_margin_left = 20.0
+content_margin_top = 20.0
+content_margin_right = 20.0
+content_margin_bottom = 20.0
+bg_color = Color(0.080783345, 0.080783345, 0.080783345, 0.7647059)
+
+[node name="story_lv8_front" unique_id=1845331984 instance=ExtResource("1_dushc")]
+dialogues = Array[String](["Không khí nơi này ngột ngạt, hơi nóng hầm hập thì cứ phả vào người anh liên tục. Đằng xa kia, những dòng dung nham đang sôi sục như muốn nuốt chửng mọi thứ.", "Player| Cuối cùng cũng đến nơi rồi, núi lửa Ignis.", "Sau một chặng đường dài, vượt qua đủ loại chướng ngại, cuối cùng anh cũng đặt chân được đến điểm cuối. ", "Thời gian qua đối với anh thực sự khó nhọc, không chỉ vượt qua những cạm bẫy, mà nếu chỉ xét riêng quãng đường từ căn phòng ấy đến nơi này, đó cũng là cả một kỳ tích.", "Anh đứng đó, ngẫm lại hành trình của mình, từ cái ngày anh bị biến thành khối hộp, đi qua những rừng sâu, những đại dương hay là cả những thành phố…", "Cái cơ thể vuông vức ấy của anh đã phải chịu bao vết xước, bao nhiêu lần chịu đau đớn. Nhưng anh vẫn tiếp tục tiến lên. ", "Dù cơ thể có thay đổi, nhưng vẫn có một thứ trong anh vẫn chưa từng dao động dù chỉ một lần.", "Phải, đó chính là…", "Player| Mình muốn trở về làm người!", "Player| Ngày hôm nay là ngày mọi thứ kết thúc!", "Số phận của mình sẽ do chính mình thay đổi. Có lẽ anh đã trưởng thành hơn trong suy nghĩ thông qua những ngày tháng cực nhọc.", "Giờ đây, anh đã biết cuộc sống có ý nghĩa lớn lao như thế nào. Và ngay lúc này đây, anh đã sẵn sàng để giành lại cuộc sống đó.", "Ngay lúc anh chuẩn bị tiến lên, mặt đất bỗng rung chuyển. Bầu không khí xung quanh đặc quánh lại. Ôi cái cảm giác ấy sao mà quên cho được. Anh dừng lại, không hề tỏ ra bất ngờ, vì lần này anh đã biết thứ gì sẽ xuất hiện.", "Boss| Hahahaha! Ta thực sự rất bất ngờ đấy, đồ chuột nhắt nhỏ bé.", "Hắn trồi lên từ mặt đất ở phía đối diện, lơ lửng nhìn xuống.", "Boss| Bao nhiêu cạm bẫy, bao nhiêu thử thách… vậy mà ngươi vẫn lết được cái xác tàn này đến được tận đây sao? ", "Boss| Đáng khen! Rất đáng khen! Nhưng sự kiên trì ngu ngốc của người đến lúc phải chấm dứt rồi.", "Player| Kẻ ngu ngốc phải là ngươi mới phải! Ta không đến đây chỉ để bỏ mạng một cách vô ích!", "Player| Hôm nay ta sẽ đánh bại ngươi, phá vỡ lời nguyền này và lấy lại hình hài con người của mình!", "Boss| Hay lắm, ta thích khí thế của ngươi bây giờ đấy! Để ta xem kỹ năng của ngươi có được như cái miệng của ngươi không.", "Boss| Biển lửa Ignis sẽ thiêu rụi hy vọng cuối cùng của ngươi. Để xem cái ý chí sắt đá đó có xứng đáng để đối chọi lại dòng dung nham của ta hay không!", "Player| Đến đây đi!", "Và thế là trận chiến cuối cùng cũng bắt đầu"])
+next_scene_path = "uid://cmpicntnn0m38"
+
+[node name="PlayerSprite" parent="." index="0" unique_id=1310796503]
+offset_left = 5.0
+offset_top = 369.0
+offset_right = 125.0
+offset_bottom = 489.0
+
+[node name="BossSprite" parent="." index="1" unique_id=1878082969]
+offset_left = 784.0
+offset_top = -71.0
+offset_right = 844.0
+offset_bottom = -14.0
+texture = ExtResource("2_x88or")
+
+[node name="TextureRect" parent="." index="2" unique_id=243096706]
+texture = ExtResource("3_pxyrp")
+metadata/_edit_lock_ = true
+
+[node name="TextLabel" parent="." index="3" unique_id=1957023836]
+theme_override_styles/normal = SubResource("StyleBoxFlat_t178c")

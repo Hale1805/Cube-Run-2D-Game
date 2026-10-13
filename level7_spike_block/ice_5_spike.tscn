@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://fjr8wirue3o"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_elbsl"]
+[ext_resource type="Texture2D" uid="uid://die2yc8mdwto5" path="res://level7_assets/ice2.png" id="2_xvk1s"]
+
+[node name="ice5_spike" unique_id=1314194643 instance=ExtResource("1_elbsl")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_xvk1s")
+region_enabled = true
+region_rect = Rect2(1536.7292, 596.637, 155.63684, 241.45679)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-57, -41, -57, -70, -47, -70, -45, -89, -35, -90, -33, -109, -15, -109, -15, -98, -4, -98, -5, -89, 7, -88, 5, -78, 15, -78, 15, -69, 24, -66, 24, -57, 34, -56, 33, -48, 43, -45, 43, -37, 53, -35, 53, -17, 62, -15, 62, -5, 71, -4, 67, 66, 58, 66, 57, 84, 48, 84, 46, 94, 36, 95, 36, 103, 16, 104, 16, 113, -45, 110, -44, 91, -54, 90, -54, 81, -63, 80, -63, 69, -73, 69, -68, -41)

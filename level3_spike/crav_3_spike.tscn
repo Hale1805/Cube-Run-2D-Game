@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://5mwep6fmec1r"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_wdqrl"]
+[ext_resource type="Texture2D" uid="uid://djj244iye1g4u" path="res://level3_assets/crab (1).png" id="2_rap2k"]
+
+[node name="crav3_spike" unique_id=1314194643 instance=ExtResource("1_wdqrl")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_rap2k")
+region_enabled = true
+region_rect = Rect2(176.70299, 683.71136, 153.98805, 184.41571)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-27, -24, 3, -39, 15, -31, 22, -46, 35, -31, 36, -49, 28, -65, 33, -72, 56, -58, 64, -45, 69, -22, 61, -7, 53, 22, 68, 41, 71, 67, 46, 90, 28, 60, -20, 62, -37, 89, -61, 70, -65, 53, -62, 39, -46, 26, -59, -1, -60, -13, -69, -30, -68, -51, -58, -75, -41, -87, -25, -85, -27, -79, -35, -71, -37, -44, -22, -62, -16, -40)

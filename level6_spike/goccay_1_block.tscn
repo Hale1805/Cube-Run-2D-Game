@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cgk2yeox6fp1r"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_waxrv"]
+[ext_resource type="Texture2D" uid="uid://gljkavvgttac" path="res://level6_assets/goccay.png" id="2_dp6kd"]
+
+[node name="goccay1_block" unique_id=1822863251 instance=ExtResource("1_waxrv")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_dp6kd")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-30, -39, -30, -52, 35, -52, 35, 13, 35, 36, -28, 35, -30, -38)

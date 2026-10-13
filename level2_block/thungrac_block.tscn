@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b0wtxr2tpj2kt"]
+
+[ext_resource type="PackedScene" uid="uid://cbhbgqv06r35d" path="res://level2_block/rao_1_block.tscn" id="1_pae1n"]
+[ext_resource type="Texture2D" uid="uid://c4ba5kye7c7o7" path="res://level2_assets/others/Props-01.png" id="2_tgige"]
+
+[node name="thungrac_block" unique_id=429250493 instance=ExtResource("1_pae1n")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+texture = ExtResource("2_tgige")
+region_enabled = true
+region_rect = Rect2(-0.8877201, 86.13412, 48.995422, 57.94465)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=216324416]
+polygon = PackedVector2Array(24, 29, 24, -6, 24, -23, 18, -23, 13, -20, 5, -15, -4, -11, -15, -6, -24, -4, -23, 29)

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dtr363a1win7h"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_bxihq"]
+[ext_resource type="Texture2D" uid="uid://cx3lq6iilit6v" path="res://level5_assets/dongvat_bien.png" id="2_nrgk2"]
+
+[node name="sanho2_spike" unique_id=1314194643 instance=ExtResource("1_bxihq")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_nrgk2")
+region_enabled = true
+region_rect = Rect2(266.90634, 25.651161, 70.20029, 95.65453)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-18, 39, -18, -20, -8, -21, -9, -36, -3, -36, -2, -42, 3, -42, 3, -36, 9, -37, 9, -25, 9, -20, 19, -21, 19, 39)

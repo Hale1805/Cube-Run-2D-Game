@@ -1,0 +1,184 @@
+[gd_scene format=3 uid="uid://bgqcny00rpgdm"]
+
+[ext_resource type="Script" uid="uid://dkw3vswjpns4s" path="res://Scripts/level_menu.gd" id="1_pssaq"]
+[ext_resource type="Texture2D" uid="uid://b04v430hsmh7u" path="res://Assets/house_bg.webp" id="2_g3bd0"]
+[ext_resource type="FontFile" uid="uid://jembarertuuy" path="res://font/PressStart2P-Regular.ttf" id="3_krrsl"]
+[ext_resource type="Texture2D" uid="uid://0pneeyboavqf" path="res://Assets/back_icon2.png" id="3_lnidy"]
+[ext_resource type="AudioStream" uid="uid://cpl012trgtli4" path="res://Assets/LevelMenu_Music.ogg" id="5_lnidy"]
+[ext_resource type="AudioStream" uid="uid://dumnfxratnymr" path="res://Assets/playSound_01.mp3" id="6_w32vy"]
+[ext_resource type="Texture2D" uid="uid://dkcvikpdecjtp" path="res://Assets/triangle_left.png" id="7_7blhc"]
+[ext_resource type="Texture2D" uid="uid://iyd8cb7mvyg" path="res://Assets/triangle_right.png" id="7_gd4f1"]
+[ext_resource type="Texture2D" uid="uid://cxk3j5f2t5wsp" path="res://Assets/mute3.png" id="9_y1rhc"]
+
+[sub_resource type="FontVariation" id="FontVariation_ckqhc"]
+base_font = ExtResource("3_krrsl")
+spacing_glyph = 3
+spacing_space = -20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w32vy"]
+bg_color = Color(0.3529412, 0.64705884, 0.7411765, 0.59607846)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lnidy"]
+bg_color = Color(0.3529412, 0.64705884, 0.7411765, 0.59607846)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gd4f1"]
+bg_color = Color(0.105882354, 0.6784314, 0.5411765, 0)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.93333334, 0.93333334, 0.93333334, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7blhc"]
+bg_color = Color(0.18431373, 0.67058825, 0.7411765, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="FontVariation" id="FontVariation_y1rhc"]
+base_font = ExtResource("3_krrsl")
+spacing_glyph = 2
+
+[node name="LevelMenu" type="Control" unique_id=107559910]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pssaq")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1826124212]
+modulate = Color(1, 1, 1, 0.73333335)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_g3bd0")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="BackButton" type="Button" parent="." unique_id=1924318658]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 600.0
+scale = Vector2(0.1, 0.1)
+theme_override_colors/icon_pressed_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+theme_override_colors/icon_hover_color = Color(0.78431374, 0.78431374, 0.78431374, 1)
+icon = ExtResource("3_lnidy")
+flat = true
+
+[node name="Level1Button" type="Button" parent="." unique_id=1871567445]
+custom_minimum_size = Vector2(988, 211)
+layout_mode = 0
+offset_left = 88.0
+offset_top = 134.0
+offset_right = 1076.0
+offset_bottom = 345.0
+theme_override_colors/font_color = Color(0.105882354, 0.6784314, 0.5411765, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = SubResource("FontVariation_ckqhc")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w32vy")
+theme_override_styles/hover = SubResource("StyleBoxFlat_lnidy")
+text = "LEVEL 1: THE ROOM"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Level1Button" unique_id=1023313696]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -325.0
+offset_top = -51.0
+offset_right = 325.0
+offset_bottom = -21.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ProgressBar" type="ProgressBar" parent="Level1Button/HBoxContainer" unique_id=882545356]
+custom_minimum_size = Vector2(0, 27)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/background = SubResource("StyleBoxFlat_gd4f1")
+theme_override_styles/fill = SubResource("StyleBoxFlat_7blhc")
+show_percentage = false
+
+[node name="ProgressLabel" type="Label" parent="Level1Button/HBoxContainer" unique_id=100653647]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.105882354, 0.6784314, 0.5411765, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = SubResource("FontVariation_y1rhc")
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=300534632]
+stream = ExtResource("5_lnidy")
+volume_db = -7.0
+autoplay = true
+
+[node name="SFX_Select" type="AudioStreamPlayer" parent="." unique_id=1380618314]
+stream = ExtResource("6_w32vy")
+volume_db = -7.0
+
+[node name="LeftButton" type="Button" parent="." unique_id=1956722593]
+layout_mode = 0
+offset_left = 21.999998
+offset_top = 294.00003
+offset_right = 630.0
+offset_bottom = 902.0
+scale = Vector2(0.1, 0.1)
+theme_override_colors/icon_pressed_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+theme_override_colors/icon_hover_color = Color(0.78431374, 0.78431374, 0.78431374, 1)
+icon = ExtResource("7_7blhc")
+flat = true
+
+[node name="RightButton" type="Button" parent="." unique_id=137310111]
+layout_mode = 0
+offset_left = 1077.0
+offset_top = 294.0
+offset_right = 1685.0
+offset_bottom = 902.0
+scale = Vector2(0.1, 0.1)
+theme_override_colors/icon_pressed_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+theme_override_colors/icon_hover_color = Color(0.78431374, 0.78431374, 0.78431374, 1)
+icon = ExtResource("7_gd4f1")
+flat = true
+
+[node name="MuteButton" type="Button" parent="." unique_id=483777018]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -62.0
+offset_top = 1.0
+offset_right = 74.0
+offset_bottom = 137.0
+grow_horizontal = 0
+scale = Vector2(0.45, 0.45)
+theme_override_colors/icon_pressed_color = Color(0.5019608, 0.5019608, 0.5019608, 1)
+theme_override_colors/icon_hover_color = Color(0.78431374, 0.78431374, 0.78431374, 1)
+icon = ExtResource("9_y1rhc")
+flat = true
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="Level1Button" to="." method="_on_level_1_button_pressed"]
+[connection signal="pressed" from="LeftButton" to="." method="_on_left_button_pressed"]
+[connection signal="pressed" from="RightButton" to="." method="_on_right_button_pressed"]
+[connection signal="pressed" from="MuteButton" to="." method="_on_mute_button_pressed"]

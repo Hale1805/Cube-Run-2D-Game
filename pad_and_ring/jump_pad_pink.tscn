@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bol0cib1pqjxw"]
+
+[ext_resource type="PackedScene" uid="uid://dqvinwamde1oi" path="res://pad_and_ring/jump_pad_yellow.tscn" id="1_hwhl6"]
+[ext_resource type="Texture2D" uid="uid://dy0dww8c4jmm8" path="res://level2_assets/MagentaJumpPad.png" id="2_66ia0"]
+
+[node name="JumpPad_Pink" unique_id=1710472730 instance=ExtResource("1_hwhl6")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1493090610]
+texture = ExtResource("2_66ia0")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=38725007]
+polygon = PackedVector2Array(9, -6, 0, -7, -6, -7, -11, -6, -18, -5, -24, -4, -32, -1, -37, 1, -40, 3, -42, 5, -45, 9, 46, 9, 44, 7, 42, 5, 39, 3, 36, 1, 33, -1, 27, -3, 22, -4, 18, -5)

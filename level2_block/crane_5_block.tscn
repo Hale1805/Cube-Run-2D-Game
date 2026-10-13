@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://o46g8t4s6btx"]
+
+[ext_resource type="PackedScene" uid="uid://0h365cvvgucj" path="res://level2_block/crane_4_block.tscn" id="1_mdk5q"]
+[ext_resource type="Texture2D" uid="uid://dcqq36w881sgb" path="res://level2_assets/crane/Tile5.png" id="2_jeib1"]
+
+[node name="crane_5_block" unique_id=429250493 instance=ExtResource("1_mdk5q")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+texture = ExtResource("2_jeib1")

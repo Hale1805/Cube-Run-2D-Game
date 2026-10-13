@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://6f3gxp5wru5o"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_hevsc"]
+[ext_resource type="Texture2D" uid="uid://bh25omq8t6mj8" path="res://level5_assets/tentacle2.png" id="2_wvedc"]
+
+[node name="tentacle2_spike" unique_id=1314194643 instance=ExtResource("1_hevsc")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_wvedc")
+region_enabled = true
+region_rect = Rect2(222.62946, 526.5049, 124.29822, 206.28217)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-23, 89, -28, 75, -41, 45, -50, 21, -52, 6, -53, -4, -52, -27, -47, -39, -36, -59, -24, -75, -8, -88, 6, -95, 14, -98, 29, -98, 37, -97, 44, -93, 51, -88, 54, -82, 55, -76, 53, -67, 50, -61, 45, -52, 35, -45, 40, -58, 43, -71, 40, -78, 32, -81, 23, -82, 16, -79, 7, -73, -6, -54, -14, -36, -16, -14, -12, 9, 0, 40, 13, 62, 21, 78, 18, 84, 13, 92, 6, 94, -4, 96, -17, 93)

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://6urc5ru81rlv"]
+
+[ext_resource type="PackedScene" uid="uid://cnq3tqlflbtbf" path="res://level3_spike/surboard_1_spike.tscn" id="1_e2d5i"]
+
+[node name="surboard3_spike" unique_id=1314194643 instance=ExtResource("1_e2d5i")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+region_rect = Rect2(14.903879, 203.72394, 18.729162, 37.60695)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+position = Vector2(0, 1)

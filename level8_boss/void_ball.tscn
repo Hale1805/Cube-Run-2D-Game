@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://dxioucth8trt2"]
+
+[ext_resource type="Script" uid="uid://b14jhwc5q61qq" path="res://Scripts/void_ball.gd" id="1_blvaa"]
+[ext_resource type="Texture2D" uid="uid://ija8cme6l1sp" path="res://level8_assets/boss/void ball/Void Ball Projectile1.png" id="2_fjy5v"]
+[ext_resource type="Texture2D" uid="uid://b51h58wrdhgmk" path="res://level8_assets/boss/void ball/Void Ball Projectile2.png" id="3_owiuv"]
+[ext_resource type="Texture2D" uid="uid://cfhfafdaibo7k" path="res://level8_assets/boss/void ball/Void Ball Projectile3.png" id="4_2lejb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_71e6y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fjy5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_owiuv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2lejb")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="VoidBall" type="Area2D" unique_id=1481373541]
+z_index = -100
+scale = Vector2(3, 3)
+script = ExtResource("1_blvaa")
+
+[node name="fly" type="AnimatedSprite2D" parent="." unique_id=1100443380]
+sprite_frames = SubResource("SpriteFrames_71e6y")
+autoplay = "default"
+frame = 2
+frame_progress = 0.04900683
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." unique_id=1427067116]
+position = Vector2(-4, -2)
+polygon = PackedVector2Array(-12, -5, -6, -10, -2, -12, 6, -11, 10, -7, 18, -5, 22, -2, 22, 1, 18, 5, 12, 9, 5, 11, 1, 15, -7, 13, -12, 7, -14, 2)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

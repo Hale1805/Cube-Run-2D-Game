@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dowhoum0tqcq4"]
+
+[ext_resource type="Texture2D" uid="uid://bkykpb8q5m3u0" path="res://Assets/DeathEffect018.png" id="1_p1lmi"]
+
+[sub_resource type="Curve" id="Curve_p1lmi"]
+_data = [Vector2(0, 0.29015547), 0.0, 0.0, 0, 0, Vector2(0.087765954, 1), 0.0, 0.0, 0, 0, Vector2(0.3670213, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[node name="DeathEffect" type="CPUParticles2D" unique_id=919334859]
+emitting = false
+amount = 1
+texture = ExtResource("1_p1lmi")
+one_shot = true
+explosiveness = 1.0
+spread = 180.0
+gravity = Vector2(0, 0)
+scale_amount_min = 0.2
+scale_amount_max = 0.2
+scale_amount_curve = SubResource("Curve_p1lmi")

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dcoyea7xn4b6u"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_3g35o"]
+[ext_resource type="Texture2D" uid="uid://bcbtfnnqiy3q" path="res://level3_assets/SummerEssentialsSpritesheet.png" id="2_4n51h"]
+
+[node name="hat_block" unique_id=1822863251 instance=ExtResource("1_3g35o")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+scale = Vector2(2, 2)
+texture = ExtResource("2_4n51h")
+region_enabled = true
+region_rect = Rect2(33.366932, 69.136566, 29.073292, 21.874191)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-28, 1, -13, -5, -13, -17, 13, -17, 13, -7, 21, -4, 27, 2, 27, 13, 8, 18, -3, 19, -15, 19, -23, 16, -28, 11)

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cx7mubit35gw5"]
+
+[ext_resource type="PackedScene" uid="uid://bx0oxefb46pwi" path="res://furniture_block_scene/tu_do_2_block.tscn" id="1_6jybh"]
+[ext_resource type="Texture2D" uid="uid://be7g838kcmwqp" path="res://Assets/Pixel Furnitures.png" id="2_snvhc"]
+
+[node name="tu_do_4_block" unique_id=429250493 instance=ExtResource("1_6jybh")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+texture = ExtResource("2_snvhc")
+region_enabled = true
+region_rect = Rect2(207.8129, 191.08173, 31.02597, 49.656647)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=216324416]
+position = Vector2(13, 17)
+polygon = PackedVector2Array(0, -41, -26, -41, -27, 7, 0, 7)

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://can44hir00es7"]
+
+[ext_resource type="Script" uid="uid://c0yu3jpot5ju" path="res://Scripts/portal_ball.gd" id="1_kdu3l"]
+[ext_resource type="Texture2D" uid="uid://bytntflfqme0b" path="res://Assets/BallPortal.png" id="2_lnscl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4prbw"]
+size = Vector2(147, 294)
+
+[node name="portal_ball" type="Area2D" unique_id=1528900391]
+script = ExtResource("1_kdu3l")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=167164288]
+texture = ExtResource("2_lnscl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1218241865]
+position = Vector2(10.5, -1)
+shape = SubResource("RectangleShape2D_4prbw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

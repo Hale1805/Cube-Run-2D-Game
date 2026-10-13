@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dllxsdxus2w6j"]
+
+[ext_resource type="PackedScene" uid="uid://bmqfvratvcyj1" path="res://level2_spike/cargo_broken_spike.tscn" id="1_qert0"]
+[ext_resource type="Texture2D" uid="uid://cm2cyvetaaxeu" path="res://level2_assets/cargo/orange_wreck.png" id="2_uwpg4"]
+
+[node name="orangecargo_broken_spike" unique_id=1360124071 instance=ExtResource("1_qert0")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_uwpg4")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(81, -32, 82, -12, 82, -3, 85, -3, 85, 6, 83, 6, 83, 24, 82, 39, -85, 39, -85, 15, -82, 15, -83, -9, -81, -9, -82, -33, -60, -33, -59, -35, -33, -35, -32, -33, -17, -33, -17, -34, -5, -34, 13, -29, 19, -37, 35, -37, 35, -39, 52, -39)

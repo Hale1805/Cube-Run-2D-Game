@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bo6bfe8rg48bp"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_trpap"]
+[ext_resource type="Texture2D" uid="uid://dne5bgkt7vh8u" path="res://level3_assets/bench.png" id="2_q86hu"]
+
+[node name="bench_block" unique_id=1822863251 instance=ExtResource("1_trpap")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_q86hu")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+position = Vector2(0, 7)
+polygon = PackedVector2Array(56, -18, -24, 62, -37, 62, -26, 43, -33, 38, -47, 37, -80, 46, -74, 16, -60, 12, -35, 4, -15, -6, -1, -15)

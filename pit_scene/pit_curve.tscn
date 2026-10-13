@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ec2tq34a4c57"]
+
+[ext_resource type="Texture2D" uid="uid://dinsskhwgr6jh" path="res://Assets/CurvedPit01.png" id="1_k2whv"]
+
+[node name="Pit_curve" type="StaticBody2D" unique_id=957112752]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=163112584]
+texture = ExtResource("1_k2whv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=837102251]
+polygon = PackedVector2Array(-61, -37, -59, -32, -58, -29, -57, -27, -56, -25, -54, -21, -53, -19, -50, -15, -47, -12, -45, -10, -43, -8, -41, -6, -39, -4, -36, -2, -34, -1, -32, 0, -30, 1, -28, 2, -26, 3, -24, 4, -22, 5, -20, 6, -17, 7, -9, 8, -4, 8, 2, 8, 7, 8, 14, 7, 18, 6, 22, 5, 27, 3, 30, 2, 33, 0, 44, -9, 52, -19, 61, -36, 61, 36, -61, 35)

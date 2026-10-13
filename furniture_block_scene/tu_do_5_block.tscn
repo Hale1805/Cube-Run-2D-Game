@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://b8rsu6gpngo7h"]
+
+[ext_resource type="PackedScene" uid="uid://cx7mubit35gw5" path="res://furniture_block_scene/tu_do_4_block.tscn" id="1_f7uxu"]
+
+[node name="tu_do_5_block" unique_id=429250493 instance=ExtResource("1_f7uxu")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+region_rect = Rect2(159.12608, 191.08173, 31.02597, 49.656647)

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://n885jdxpt6ls"]
+
+[ext_resource type="PackedScene" uid="uid://cmm5pktrm3ynm" path="res://pad_and_ring/green_dash_ring.tscn" id="1_1gklh"]
+[ext_resource type="Texture2D" uid="uid://b0ghntbtqbhhb" path="res://level2_assets/MagentaDashRing.png" id="2_6es34"]
+
+[sub_resource type="Gradient" id="Gradient_1syfo"]
+offsets = PackedFloat32Array(0, 0.004716981, 0.995283, 1)
+colors = PackedColorArray(0, 0.85882354, 0.85882354, 1, 0.94404477, 0.63168097, 0.8825881, 1, 0.93333334, 0.93333334, 0.93333334, 0, 1, 1, 1, 1)
+
+[node name="PinkDashRing" unique_id=519226501 instance=ExtResource("1_1gklh")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=623588795]
+texture = ExtResource("2_6es34")
+
+[node name="CPUParticles2D" parent="." index="2" unique_id=405553168]
+color_ramp = SubResource("Gradient_1syfo")

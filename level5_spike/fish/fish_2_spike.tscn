@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bdgd1dc0umq17"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_2jncv"]
+[ext_resource type="Texture2D" uid="uid://bb5mekosrjed6" path="res://level5_assets/cabien2.png" id="2_dyy1n"]
+
+[node name="fish2_spike" unique_id=1314194643 instance=ExtResource("1_2jncv")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_dyy1n")
+region_enabled = true
+region_rect = Rect2(302.18793, 343.62384, 93.857666, 53.813843)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-42, -1, -37, -4, -32, -6, -27, -7, -21, -10, -15, -12, -11, -14, -10, -18, -7, -23, -5, -25, -2, -24, 4, -21, 6, -17, 7, -11, 10, -12, 15, -18, 17, -18, 19, -13, 22, -6, 29, -5, 38, -16, 43, -17, 44, -15, 40, -4, 39, 1, 42, 11, 42, 16, 37, 16, 30, 9, 25, 8, 20, 22, 16, 21, 11, 15, 6, 15, 5, 17, -1, 17, -1, 26, -4, 27, -10, 23, -12, 22, -14, 19, -22, 18, -30, 16, -33, 14, -38, 12, -41, 10, -44, 7, -44, 5, -43, 4, -43, 2, -43, -1)

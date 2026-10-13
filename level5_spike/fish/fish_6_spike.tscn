@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bppryix428ohc"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_odvxl"]
+[ext_resource type="Texture2D" uid="uid://bs17sbm1dsxe6" path="res://level5_assets/ca_bien.png" id="2_ihi7a"]
+
+[node name="fish6_spike" unique_id=1314194643 instance=ExtResource("1_odvxl")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_ihi7a")
+region_enabled = true
+region_rect = Rect2(106.18765, 220.80377, 93.85777, 52.66519)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-41, 0, -34, -5, -24, -8, -17, -10, -5, -10, 6, -21, 9, -21, 8, -10, 13, -7, 21, -7, 22, -4, 28, -4, 28, -6, 30, -7, 37, -13, 41, -13, 42, -9, 41, -8, 41, -5, 39, -4, 39, 2, 41, 3, 41, 7, 42, 8, 41, 11, 41, 12, 38, 13, 34, 11, 30, 7, 28, 6, 23, 6, 21, 9, 20, 12, 18, 16, 16, 19, 14, 19, 12, 17, 10, 15, 2, 14, 4, 16, 5, 21, 4, 22, 2, 22, -1, 21, -4, 19, -5, 16, -7, 14, -20, 14, -25, 12, -29, 10, -33, 9, -37, 6, -40, 4, -41, 3)

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dldm0ya3d3chj"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_c4qyw"]
+[ext_resource type="Texture2D" uid="uid://crqlocl1c2bib" path="res://level6_assets/animal3.png" id="2_dldl2"]
+
+[node name="cow_spike" unique_id=1314194643 instance=ExtResource("1_c4qyw")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_dldl2")
+region_enabled = true
+region_rect = Rect2(1316.4215, 244.1683, 588.27014, 367.83206)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-244, -56, -262, -56, -262, -93, -244, -92, -244, -110, -225, -110, -224, -130, -206, -131, -205, -149, -190, -150, -188, -166, -169, -168, -169, -150, -150, -150, -150, -169, -114, -167, -114, -148, -131, -148, -132, -132, 206, -130, 206, -111, 228, -111, 226, -54, 246, -54, 245, 21, 227, 21, 227, -35, 206, -34, 207, 114, 188, 115, 190, 170, 152, 171, 151, 149, 114, 153, 114, 136, 130, 134, 132, 59, 113, 58, 112, 39, 96, 39, 95, 58, 77, 58, 77, 41, -20, 40, -18, 153, -56, 153, -57, 134, -38, 133, -38, 95, -56, 95, -56, 115, -75, 115, -75, 172, -113, 172, -112, 153, -95, 153, -94, 59, -112, 58, -113, 40, -132, 39, -131, 2, -149, 2, -150, -36, -168, -36, -170, -55, -207, -54, -207, -36, -244, -36)

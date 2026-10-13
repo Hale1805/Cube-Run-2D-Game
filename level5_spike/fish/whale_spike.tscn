@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cusxpfieocl3a"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_vgx53"]
+[ext_resource type="Texture2D" uid="uid://ci3kd7615kr8w" path="res://level5_assets/whale1.png" id="2_kovxq"]
+
+[node name="whale_spike" unique_id=1314194643 instance=ExtResource("1_vgx53")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_kovxq")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-280, 7, -282, -116, -252, -117, -253, -147, -220, -147, -220, -178, -65, -178, -65, -149, -34, -148, -34, -116, -4, -116, -3, -86, 27, -86, 28, -54, 89, -54, 89, -23, 182, -23, 181, -53, 150, -54, 151, -85, 120, -85, 120, -117, 214, -116, 214, -86, 244, -85, 242, -116, 336, -116, 336, -86, 307, -85, 306, -53, 244, -53, 244, 39, 213, 38, 213, 70, 182, 69, 182, 100, 152, 100, 151, 131, 151, 131, 89, 131, 89, 193, 28, 193, 27, 162, -4, 162, -3, 132, -34, 131, -34, 100, -66, 100, -66, 162, -97, 162, -97, 131, -128, 131, -128, 101, -159, 100, -159, 69, -221, 69, -221, 39, -252, 38, -252, 8)

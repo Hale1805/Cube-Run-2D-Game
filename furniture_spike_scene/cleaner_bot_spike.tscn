@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dml5hdxefgqje"]
+
+[ext_resource type="PackedScene" uid="uid://bhckf3fp46ydx" path="res://furniture_spike_scene/radio_spike.tscn" id="1_b21d7"]
+
+[node name="cleaner_bot_spike" unique_id=1360124071 instance=ExtResource("1_b21d7")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+scale = Vector2(5, 5)
+region_rect = Rect2(333.40695, 295.26947, 21.279785, 10.315002)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+position = Vector2(0, 24)
+polygon = PackedVector2Array(40, -5, 45, -15, 44, -36, 39, -42, -39, -42, -45, -36, -45, -14, -39, -6)

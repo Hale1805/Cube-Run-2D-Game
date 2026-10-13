@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bqd3hseoxe1vm"]
+
+[ext_resource type="PackedScene" uid="uid://cvr4xbgth22tb" path="res://pit_scene/jagged_1_pit.tscn" id="1_o8nhd"]
+[ext_resource type="Shader" uid="uid://cfyjxq37528re" path="res://furniture_block_scene/tu_do_block.gdshader" id="2_iak1o"]
+[ext_resource type="Texture2D" uid="uid://cxa5njvhdd7yn" path="res://Assets/tu_do.png" id="3_7vuqq"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_t8n2e"]
+shader = ExtResource("2_iak1o")
+shader_parameter/line_color = Color(1, 1, 1, 1)
+shader_parameter/line_thickness = 1.1
+
+[node name="tu_do_block" unique_id=429250493 instance=ExtResource("1_o8nhd")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+material = SubResource("ShaderMaterial_t8n2e")
+texture = ExtResource("3_7vuqq")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=216324416]
+polygon = PackedVector2Array(11, 13, 12, -12, -12, -12, -11, 13)

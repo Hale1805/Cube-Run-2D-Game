@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://buvp41a20yu8s"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_mwla4"]
+[ext_resource type="Texture2D" uid="uid://cq81380xo2f3q" path="res://level4_assets/block_img/giankhoan.png" id="2_r7ieo"]
+
+[node name="giankhoan_block" unique_id=1822863251 instance=ExtResource("1_mwla4")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("2_r7ieo")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-184, 47, -88, 47, -88, 19, 123, 18, 122, 126, 132, 127, 131, 93, 164, 91, 164, 55, 264, 55, 267, 141, 192, 142, 194, 245, 21, 142, -151, 246, -150, 144, -224, 144, -224, 127, -185, 127)

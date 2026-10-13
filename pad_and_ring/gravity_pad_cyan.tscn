@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b0pat58q60uuu"]
+
+[ext_resource type="Script" uid="uid://cuu3xrnr6pn7y" path="res://Scripts/gravity_pad_cyan.gd" id="1_mk0vr"]
+[ext_resource type="Texture2D" uid="uid://bm77frag7hlcv" path="res://level2_assets/CyanGravityPad.png" id="2_uysun"]
+
+[node name="GravityPad_Cyan" type="Area2D" unique_id=1851011764]
+script = ExtResource("1_mk0vr")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1019395346]
+texture = ExtResource("2_uysun")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1191949235]
+polygon = PackedVector2Array(-10, -7, -15, -7, -22, -5, -28, -3, -32, -1, -35, 1, -38, 3, -40, 5, -41, 6, -43, 8, -44, 9, -46, 12, 45, 12, 42, 8, 39, 5, 35, 2, 31, -1, 26, -4, 15, -7, 4, -7)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

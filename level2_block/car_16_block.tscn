@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cm3fgleykc503"]
+
+[ext_resource type="PackedScene" uid="uid://cnsw6jjewr6f8" path="res://level2_block/car_1_block.tscn" id="1_hs0fw"]
+[ext_resource type="Texture2D" uid="uid://4tmyyusexw82" path="res://level2_assets/car (16).png" id="2_1qqor"]
+
+[node name="car16_block" unique_id=429250493 instance=ExtResource("1_hs0fw")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+texture = ExtResource("2_1qqor")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=216324416]
+polygon = PackedVector2Array(6, -5, 3, -7, -7, -7, -12, -4, -19, -4, -19, 1, -20, 1, -20, 3, -17, 5, -14, 7, -10, 5, 7, 5, 8, 7, 12, 7, 13, 5, 19, 5, 19, 1, 11.782193, -2.331295)

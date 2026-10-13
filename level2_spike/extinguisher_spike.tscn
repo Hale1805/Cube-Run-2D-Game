@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cwess2ytc7cq8"]
+
+[ext_resource type="PackedScene" uid="uid://d03bkctluymfa" path="res://level2_spike/car_7_spike.tscn" id="1_8e1sl"]
+[ext_resource type="Texture2D" uid="uid://cata83uvrd2wx" path="res://level2_assets/others/Fire-extinguisher1.png" id="2_imjte"]
+
+[node name="extinguisher_spike" unique_id=1360124071 instance=ExtResource("1_8e1sl")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_imjte")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-4, 26, 7, 26, 7, 2, 7, -5, 3, -5, 1, -2, -8, -2, -11, 1, -9, 6, -5, 9)

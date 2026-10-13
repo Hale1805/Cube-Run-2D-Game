@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://m5j7qexbpwx8"]
+
+[ext_resource type="PackedScene" uid="uid://ddogwlrslinpj" path="res://base_block.tscn" id="1_7uc4f"]
+[ext_resource type="Texture2D" uid="uid://cydj6wcowluy1" path="res://level3_assets/campervan.png" id="2_8o4ra"]
+
+[node name="campervan_block" unique_id=1822863251 instance=ExtResource("1_7uc4f")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1669644865]
+texture = ExtResource("2_8o4ra")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=1327716539]
+polygon = PackedVector2Array(-75, -61, 56, -61, 56, -56, 61, -55, 61, -46, 67, -46, 68, -37, 70, -29, 75, -29, 75, -20, 79, -19, 79, -5, 83, -6, 84, 12, 88, 12, 88, 26, 63, 27, 52, 40, 38, 40, 27, 27, -33, 27, -43, 40, -57, 40, -67, 27, -89, 27, -89, 12, -83, 12, -84, -46, -79, -46, -79, -55, -75, -55)

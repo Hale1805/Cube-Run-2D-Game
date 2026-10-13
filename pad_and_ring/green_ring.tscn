@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dvvd01aby2vlj"]
+
+[ext_resource type="PackedScene" uid="uid://b3238qyeexhhv" path="res://pad_and_ring/cyan_gravity_ring.tscn" id="1_cxhr6"]
+[ext_resource type="Texture2D" uid="uid://pjnsh8thcl8h" path="res://level2_assets/GreenGravityRing.png" id="2_t6fwm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nhyly"]
+radius = 73.00685
+
+[sub_resource type="Gradient" id="Gradient_3gabu"]
+offsets = PackedFloat32Array(0, 0.004716981, 0.995283, 1)
+colors = PackedColorArray(0.3537136, 0.8834152, 0.32680377, 1, 0.19491646, 0.7289329, 0.29146385, 1, 0.93333334, 0.93333334, 0.93333334, 0, 1, 1, 1, 1)
+
+[node name="GreenRing" unique_id=519226501 instance=ExtResource("1_cxhr6")]
+type = 2
+
+[node name="Sprite2D" parent="." index="0" unique_id=623588795]
+texture = ExtResource("2_t6fwm")
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=1082230064]
+shape = SubResource("CircleShape2D_nhyly")
+
+[node name="CPUParticles2D" parent="." index="2" unique_id=405553168]
+color_ramp = SubResource("Gradient_3gabu")

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dh4mqapnb26n7"]
+
+[ext_resource type="Script" uid="uid://41ag1x4b1fyq" path="res://Scripts/gai_nhon_origin.gd" id="1_jh322"]
+[ext_resource type="Texture2D" uid="uid://j4ngtc8aqmo1" path="res://Assets/RegularSpike01.png" id="2_dp0hv"]
+
+[node name="GaiNhonOrigin" type="Area2D" unique_id=1360124071]
+script = ExtResource("1_jh322")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1037805434]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_dp0hv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=785831806]
+polygon = PackedVector2Array(-30, 31, 30, 31, 0, -30)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d03bkctluymfa"]
+
+[ext_resource type="PackedScene" uid="uid://bgls7kfx14tgc" path="res://furniture_spike_scene/laptop_spike.tscn" id="1_2sbjy"]
+[ext_resource type="Texture2D" uid="uid://d25qt312dvjfq" path="res://level2_assets/car (7).png" id="2_xylgn"]
+
+[node name="car7_spike" unique_id=1360124071 instance=ExtResource("1_2sbjy")]
+z_index = -100
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_xylgn")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(-21, 12, -15, 12, -15, 10, 12, 10, 12, 12, 18, 12, 18, 10, 24, 10, 24, 9, 28, 9, 31, 6, 31, 2, 28, 1, 24, -1, 17, -3, 10, -5, 5, -8, 2, -10, 1, -12, -11, -12, -11, -11, -15, -10, -18, -9, -24, -7, -24, -9, -26, -9, -26, -11, -32, -11, -32, -6, -30, -6, -30, -3, -31, -3, -31, 5, -30, 5)

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cokupqcy8igyj"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_jk5y0"]
+[ext_resource type="Texture2D" uid="uid://cuebif2w0ay7r" path="res://level6_assets/animal2.png" id="2_ur0bd"]
+
+[node name="random_spike" unique_id=1314194643 instance=ExtResource("1_jk5y0")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+scale = Vector2(-1, 1)
+texture = ExtResource("2_ur0bd")
+region_enabled = true
+region_rect = Rect2(194.79437, 959.754, 666.4889, 899.2992)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-305, -255, -308, -346, -277, -348, -278, -380, -216, -380, -215, -408, -185, -408, -185, -380, -123, -378, -123, -408, -93, -409, -91, -348, -122, -346, -123, -316, -92, -316, -93, -285, -61, -285, -61, -192, -30, -192, -31, -161, 123, -163, 125, -131, 185, -131, 185, -100, 216, -100, 216, -70, 248, -69, 247, -38, 279, -37, 279, 117, 248, 117, 248, 176, 279, 177, 279, 269, 311, 271, 310, 300, 332, 302, 333, 333, 279, 333, 278, 273, 246, 272, 246, 179, 187, 179, 186, 424, 156, 425, 156, 208, 122, 210, 123, 393, 93, 393, 94, 210, 62, 208, 63, 178, 31, 177, 32, 147, 0, 148, 1, 115, -30, 117, -31, 209, -62, 209, -62, 240, -91, 240, -91, 425, -122, 426, -122, 177, -152, 178, -155, 395, -185, 395, -184, 118, -216, 116, -215, -69, -186, -68, -185, -163, -214, -162, -215, -254)

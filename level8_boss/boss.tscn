@@ -1,0 +1,215 @@
+[gd_scene format=3 uid="uid://cjtigrxa2dpx6"]
+
+[ext_resource type="Texture2D" uid="uid://cnugowvrir2x1" path="res://level8_assets/boss/movement/Eye Beast Moving1.png" id="1_uniyq"]
+[ext_resource type="Script" uid="uid://dgfaadciushka" path="res://level8_boss/boss.gd" id="1_xuafq"]
+[ext_resource type="Texture2D" uid="uid://skhbnsa210i2" path="res://level8_assets/boss/movement/Eye Beast Moving2.png" id="2_7bnq2"]
+[ext_resource type="Texture2D" uid="uid://cx0atwbce6ciq" path="res://level8_assets/boss/attack/Eye Beast Attack1.png" id="2_oxoi7"]
+[ext_resource type="PackedScene" uid="uid://dxioucth8trt2" path="res://level8_boss/void_ball.tscn" id="2_qb0od"]
+[ext_resource type="Texture2D" uid="uid://bv0eqj66x6v1w" path="res://level8_assets/boss/movement/Eye Beast Moving3.png" id="3_2qgdk"]
+[ext_resource type="PackedScene" uid="uid://byp4naa2ynv3w" path="res://level8_boss/beam_1.tscn" id="3_iic3l"]
+[ext_resource type="Texture2D" uid="uid://df8mway8on7yj" path="res://level8_assets/boss/attack/Eye Beast Attack2.png" id="3_qb0od"]
+[ext_resource type="PackedScene" uid="uid://begg1w1o110bo" path="res://level8_boss/beam_2.tscn" id="4_7u3yr"]
+[ext_resource type="Texture2D" uid="uid://bat4gedxrltkv" path="res://level8_assets/boss/attack/Eye Beast Attack3.png" id="4_iic3l"]
+[ext_resource type="Texture2D" uid="uid://bd10cpkqj0s8o" path="res://level8_assets/boss/movement/Eye Beast Moving4.png" id="4_s6qjp"]
+[ext_resource type="Texture2D" uid="uid://devua81nc0v5h" path="res://level8_assets/boss/attack/Eye Beast Attack4.png" id="5_7u3yr"]
+[ext_resource type="Texture2D" uid="uid://jno31x13jmii" path="res://level8_assets/boss/movement/Eye Beast Moving5.png" id="5_vo4qh"]
+[ext_resource type="Texture2D" uid="uid://cb33l4q4s1ia1" path="res://level8_assets/boss/movement/Eye Beast Moving6.png" id="6_4rptv"]
+[ext_resource type="Texture2D" uid="uid://bqkgdkojboqq2" path="res://level8_assets/boss/attack/Eye Beast Attack5.png" id="6_usxh5"]
+[ext_resource type="Texture2D" uid="uid://dowcjf7tvbpid" path="res://level8_assets/boss/attack/Eye Beast Attack6.png" id="7_758xg"]
+[ext_resource type="Texture2D" uid="uid://b10ipconbhefi" path="res://level8_assets/boss/movement/Eye Beast Moving7.png" id="7_lnymx"]
+[ext_resource type="Texture2D" uid="uid://q0has0w8fxr1" path="res://level8_assets/boss/attack/Eye Beast Attack7.png" id="8_8bw6k"]
+[ext_resource type="Texture2D" uid="uid://b3kmme2ef0kmv" path="res://level8_assets/boss/movement/Eye Beast Moving8.png" id="8_anwdl"]
+[ext_resource type="Texture2D" uid="uid://mvvprti4055y" path="res://level8_assets/boss/movement/Eye Beast Moving9.png" id="9_rpuss"]
+[ext_resource type="Texture2D" uid="uid://ck5is3qnmgeb1" path="res://level8_assets/boss/attack/Eye Beast Attack8.png" id="9_xe82h"]
+[ext_resource type="Texture2D" uid="uid://n4n0py0jggeu" path="res://level8_assets/boss/movement/Eye Beast Moving10.png" id="10_emymb"]
+[ext_resource type="Texture2D" uid="uid://fn2lqgvtjntt" path="res://level8_assets/boss/attack/Eye Beast Attack9.png" id="10_q60oe"]
+[ext_resource type="Texture2D" uid="uid://cwslvfa6hkahb" path="res://level8_assets/boss/attack/Eye Beast Attack10.png" id="11_451v0"]
+[ext_resource type="Texture2D" uid="uid://t1ixhw25eq27" path="res://level8_assets/boss/movement/Eye Beast Moving11.png" id="11_uyd1v"]
+[ext_resource type="Texture2D" uid="uid://c3lcowh6n013g" path="res://level8_assets/boss/attack/Eye Beast Attack11.png" id="12_0005c"]
+[ext_resource type="Texture2D" uid="uid://d05qqg1y0fj5m" path="res://level8_assets/boss/movement/Eye Beast Moving12.png" id="12_smjno"]
+[ext_resource type="Texture2D" uid="uid://dbxgv55u3nwon" path="res://level8_assets/boss/attack/Eye Beast Attack12.png" id="13_4hr00"]
+[ext_resource type="Texture2D" uid="uid://gak8kr4nvi7s" path="res://level8_assets/boss/movement/Eye Beast Moving13.png" id="13_iyi4u"]
+[ext_resource type="Texture2D" uid="uid://k4ppoy4rnw2h" path="res://level8_assets/boss/attack/Eye Beast Attack13.png" id="14_klwwr"]
+[ext_resource type="Texture2D" uid="uid://c467wnkot7fnd" path="res://level8_assets/boss/death/Eye Beast Death1.png" id="15_onnde"]
+[ext_resource type="Texture2D" uid="uid://c30rs687uvbfh" path="res://level8_assets/boss/death/Eye Beast Death2.png" id="16_y3sjr"]
+[ext_resource type="Texture2D" uid="uid://cdoo5bwnixve6" path="res://level8_assets/boss/death/Eye Beast Death3.png" id="17_8a5on"]
+[ext_resource type="Texture2D" uid="uid://64qsyiwnowj1" path="res://level8_assets/boss/death/Eye Beast Death4.png" id="18_qa3hn"]
+[ext_resource type="Texture2D" uid="uid://oqmwp1poovw2" path="res://level8_assets/boss/death/Eye Beast Death5.png" id="19_vf3k1"]
+[ext_resource type="Texture2D" uid="uid://5ejwsyb3rdt3" path="res://level8_assets/boss/death/Eye Beast Death6.png" id="20_24eqp"]
+[ext_resource type="Texture2D" uid="uid://s13his8nw8w" path="res://level8_assets/boss/death/Eye Beast Death7.png" id="21_jrnu4"]
+[ext_resource type="Texture2D" uid="uid://c6ta8xh4dduet" path="res://level8_assets/boss/death/Eye Beast Death8.png" id="22_xhdmb"]
+[ext_resource type="Texture2D" uid="uid://cknw644cnn7dn" path="res://level8_assets/boss/death/Eye Beast Death9.png" id="23_gxtcp"]
+[ext_resource type="Texture2D" uid="uid://bkofbh8gw0cm5" path="res://level8_assets/boss/death/Eye Beast Death10.png" id="24_i17kk"]
+[ext_resource type="Texture2D" uid="uid://dpe0y663iwtth" path="res://level8_assets/boss/death/Eye Beast Death11.png" id="25_udnde"]
+[ext_resource type="Texture2D" uid="uid://cipu0kpbd3enl" path="res://level8_assets/boss/death/Eye Beast Death12.png" id="26_q4o3f"]
+[ext_resource type="Texture2D" uid="uid://c2ix4nsh68seh" path="res://level8_assets/boss/death/Eye Beast Death13.png" id="27_a5yk2"]
+[ext_resource type="Texture2D" uid="uid://betp78wwe23lm" path="res://level8_assets/boss/death/Eye Beast Death14.png" id="28_u2mxj"]
+[ext_resource type="Texture2D" uid="uid://cswul7w8polx5" path="res://level8_assets/boss/death/Eye Beast Death15.png" id="29_lohq5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4prbw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_oxoi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qb0od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_iic3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7u3yr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_usxh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_758xg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8bw6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_xe82h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_q60oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_451v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0005c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_4hr00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_klwwr")
+}],
+"loop": 0,
+"name": &"attack",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_onnde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_y3sjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_8a5on")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_qa3hn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_vf3k1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_24eqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_jrnu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_xhdmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_gxtcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_i17kk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_udnde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_q4o3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_a5yk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_u2mxj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_lohq5")
+}],
+"loop": 0,
+"name": &"death",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_uniyq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_7bnq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2qgdk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_s6qjp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vo4qh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_4rptv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_lnymx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_anwdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_rpuss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_emymb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_uyd1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_smjno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_iyi4u")
+}],
+"loop": 1,
+"name": &"move",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u3yhf"]
+radius = 14.035668
+
+[node name="Boss" type="Area2D" unique_id=880065083]
+z_index = -100
+script = ExtResource("1_xuafq")
+void_ball_scene = ExtResource("2_qb0od")
+beam_1_scene = ExtResource("3_iic3l")
+beam_2_scene = ExtResource("4_7u3yr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1476104843]
+sprite_frames = SubResource("SpriteFrames_4prbw")
+animation = &"move"
+autoplay = "move"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1692027221]
+position = Vector2(7, 4)
+shape = SubResource("CircleShape2D_u3yhf")
+
+[node name="AttackTimer" type="Timer" parent="." unique_id=1246843675]
+wait_time = 2.5
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_frame_changed"]
+[connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]

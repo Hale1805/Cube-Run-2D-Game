@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://daksidaxl8n34"]
+
+[ext_resource type="PackedScene" uid="uid://cj5rdcmeoh5u6" path="res://level2_block/crane_1_block.tscn" id="1_506oh"]
+[ext_resource type="Texture2D" uid="uid://vydrdjrpxuqr" path="res://level2_assets/crane/Tile3.png" id="2_whllw"]
+
+[node name="crane_3_block" unique_id=429250493 instance=ExtResource("1_506oh")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=199650346]
+texture = ExtResource("2_whllw")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=216324416]
+polygon = PackedVector2Array(49, 16, 49, -14, -47, -14, -47, 16)

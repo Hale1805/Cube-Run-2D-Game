@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bypph0xhfdd4c"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_06du1"]
+[ext_resource type="Texture2D" uid="uid://d2xs1sd0nbpcu" path="res://level7_assets/rock2.png" id="2_v14tg"]
+
+[node name="rock6_spike" unique_id=1314194643 instance=ExtResource("1_06du1")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+texture = ExtResource("2_v14tg")
+region_enabled = true
+region_rect = Rect2(364.7666, 441.26923, 282.8529, 185.97296)
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+polygon = PackedVector2Array(-134, 85, -134, 74, -123, 73, -123, 53, -113, 51, -112, 30, -102, 30, -102, -12, -92, -12, -90, -23, -81, -24, -81, -55, -69, -55, -69, -65, -60, -66, -58, -77, -17, -77, -16, -86, 26, -87, 27, -77, 58, -77, 59, -66, 70, -66, 70, -55, 80, -55, 80, -45, 91, -45, 92, -1, 112, -1, 113, 10, 123, 10, 124, 19, 134, 20, 133, 63, 123, 64, 123, 74, 59, 74, 59, 65, 49, 64, 48, 85, -37, 84, -38, 74, -38, 74, -57, 75, -58, 83)

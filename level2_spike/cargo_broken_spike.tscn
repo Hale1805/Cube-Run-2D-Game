@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bmqfvratvcyj1"]
+
+[ext_resource type="PackedScene" uid="uid://d03bkctluymfa" path="res://level2_spike/car_7_spike.tscn" id="1_irlc6"]
+[ext_resource type="Texture2D" uid="uid://6hqxredvagto" path="res://level2_assets/cargo/cargo_wreck.png" id="2_k2p6p"]
+
+[node name="cargo_broken_spike" unique_id=1360124071 instance=ExtResource("1_irlc6")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1037805434]
+texture = ExtResource("2_k2p6p")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=785831806]
+polygon = PackedVector2Array(59, -36, 70, -25, 70, -9, 64, -6, 64, 4, 65, 4, 65, 8, 67, 8, 67, 21, 65, 21, 65, 36, -67, 36, -70, -35, -43, -35, -41, -36, -4, -36, 14, -32, 40, -28, 47, -31)

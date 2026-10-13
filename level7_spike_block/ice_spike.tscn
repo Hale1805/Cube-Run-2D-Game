@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://duhbwpqvwodik"]
+
+[ext_resource type="PackedScene" uid="uid://dtdwqixluxb0b" path="res://base_spike.tscn" id="1_sk8h6"]
+[ext_resource type="Texture2D" uid="uid://3d5rev87hj18" path="res://level7_assets/ice.png" id="2_4i8pr"]
+
+[node name="ice_spike" unique_id=1314194643 instance=ExtResource("1_sk8h6")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1897023522]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_4i8pr")
+
+[node name="CollisionPolygon2D" parent="." index="1" unique_id=2014986722]
+scale = Vector2(0.2, 0.2)
+polygon = PackedVector2Array(-151, -339, 1, -418, 1, -437, 114, -437, 115, -418, 154, -418, 153, -397, 172, -399, 172, -381, 189, -381, 190, -323, 173, -323, 171, -134, 151, -132, 153, -39, 133, -38, 134, 151, 114, 152, 114, 171, 95, 171, 95, 228, 75, 228, 76, 361, 57, 362, 57, 437, 38, 437, 38, 456, -20, 456, -20, 400, -38, 399, -38, 286, -57, 286, -56, 322, -75, 323, -76, 286, -96, 285, -96, 76, -113, 76, -114, -38, -133, -37, -134, -94, -151, -94)
